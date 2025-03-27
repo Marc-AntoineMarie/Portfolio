@@ -130,34 +130,59 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     overflow-y: auto;
+    padding: 20px 0;
 }
 
 .modal-content {
-    background-color: white;
-    margin: 5% auto;
-    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 5vh auto;
+    padding: 25px;
     border-radius: 10px;
-    width: 80%;
-    max-width: 800px;
+    width: 90%;
+    max-width: 500px;
     position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-text {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.modal-text::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-text::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.modal-text::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.modal-text h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
     color: var(--text-color);
 }
 
 .close {
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 15px;
+    color: var(--text-color);
     font-size: 28px;
+    font-weight: bold;
     cursor: pointer;
 }
 
-.modal-text {
-    margin-top: 20px;
-}
-
-.modal-text h3 {
-    margin-top: 20px;
-    color: var(--primary-color);
+.close:hover {
+    color: #bbb;
 }
 
 @media (max-width: 768px) {
@@ -174,6 +199,12 @@
     .footer-bottom {
         margin-top: 15px;
         padding-top: 15px;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 1vh auto;
+        padding: 20px;
     }
 }
 </style>
