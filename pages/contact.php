@@ -9,18 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <a href="../index.html">Mon Portfolio</a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="../index.html">Accueil</a></li>
-            <li><a href="competences.html">Compétences</a></li>
-            <li><a href="projets.html">Projets</a></li>
-            <li><a href="veille.html">Veille Technologique</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-    </nav>
+
+    <?php include("../include/header/navbar.php"); ?>
 
     <main class="contact-container">
         <h1>Contact</h1>
@@ -110,27 +100,7 @@
         </section>
     </main>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>Contact</h4>
-                <p>Email : votre.email@example.com</p>
-                <p>LinkedIn : votre-profil</p>
-            </div>
-            <div class="footer-section">
-                <h4>Navigation</h4>
-                <ul>
-                    <li><a href="../index.html">Accueil</a></li>
-                    <li><a href="competences.html">Compétences</a></li>
-                    <li><a href="projets.html">Projets</a></li>
-                    <li><a href="veille.html">Veille</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 - Portfolio BTS SIO SLAM</p>
-        </div>
-    </footer>
+    <?php include("../include/footer/footer.php"); ?>
 
     <script src="../js/main.js"></script>
     <script src="../js/contact.js"></script>
