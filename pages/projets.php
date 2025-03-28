@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
     <?php include("../include/header/navbar.php"); ?>
 
     <main class="projets-container">
@@ -25,7 +24,7 @@
 
         <!-- Grille des projets -->
         <div class="projets-grid">
-            <!-- Template de projet - À dupliquer pour chaque projet -->
+            <!-- Projet 1 -->
             <article class="projet-card" data-category="web">
                 <div class="projet-image">
                     <img src="../assets/placeholder-project.jpg" alt="Image du projet">
@@ -46,68 +45,6 @@
                     </div>
                 </div>
             </article>
-
-            <!-- Section détaillée du projet (popup) -->
-            <div class="projet-details-modal" id="projetModal">
-                <div class="modal-content">
-                    <span class="close-modal">&times;</span>
-                    <div class="projet-details">
-                        <h2>Nom du Projet</h2>
-                        
-                        <section class="projet-context">
-                            <h3>Contexte du Projet</h3>
-                            <p>Décrivez ici le contexte du projet...</p>
-                        </section>
-
-                        <section class="projet-environment">
-                            <h3>Environnement Technologique</h3>
-                            <ul>
-                                <li>Front-end : </li>
-                                <li>Back-end : </li>
-                                <li>Base de données : </li>
-                                <li>Outils : </li>
-                            </ul>
-                        </section>
-
-                        <section class="projet-tasks">
-                            <h3>Tâches Réalisées</h3>
-                            <ul>
-                                <li>Tâche 1...</li>
-                                <li>Tâche 2...</li>
-                            </ul>
-                        </section>
-
-                        <section class="projet-timeline">
-                            <h3>Planning du Projet</h3>
-                            <div class="timeline">
-                                <!-- Insérez ici votre diagramme de Gantt ou PERT -->
-                            </div>
-                        </section>
-
-                        <section class="projet-challenges">
-                            <h3>Difficultés et Solutions</h3>
-                            <div class="challenge">
-                                <h4>Difficulté 1</h4>
-                                <p>Description de la difficulté...</p>
-                                <p><strong>Solution :</strong> Description de la solution...</p>
-                            </div>
-                        </section>
-
-                        <section class="projet-competences">
-                            <h3>Compétences Mobilisées</h3>
-                            <ul>
-                                <li>Compétence 1 du référentiel...</li>
-                                <li>Compétence 2 du référentiel...</li>
-                            </ul>
-                        </section>
-
-                        <section class="projet-bilan">
-                            <h3>Bilan Personnel</h3>
-                            <p>Votre bilan personnel du projet...</p>
-                        </section>
-                    </div>
-                </div>
-            </div>
         </div>
     </main>
 

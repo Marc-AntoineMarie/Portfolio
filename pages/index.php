@@ -9,56 +9,9 @@
     <!-- Three.js est nécessaire pour VANTA -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
-    <style>
-    #vanta-bg {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        z-index: -1;
-    }
-
-    .hero-content {
-        position: relative;
-        z-index: 1;
-        color: #ffffff;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-    }
-
-    .quick-info {
-        position: relative;
-        z-index: 1;
-        background: rgba(44, 62, 80, 0.85);
-        backdrop-filter: blur(10px);
-        border-radius: 15px;
-        margin: 2rem auto;
-        padding: 2rem;
-    }
-
-    .info-card {
-        background: rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(5px);
-        border-radius: 10px;
-        padding: 1.5rem;
-        transition: transform 0.3s ease;
-        color: #ffffff;
-    }
-
-    .info-card i {
-        color: #4a90e2;
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-
-    .info-card:hover {
-        transform: translateY(-5px);
-        background: rgba(0, 0, 0, 0.4);
-    }
-    </style>
 </head>
-<body>
-
+<body class="home">
+    <div class="overlay"></div>
     <?php include("../include/header/navbar.php"); ?>
 
     <main class="home-container">
@@ -68,7 +21,7 @@
                 <h1>Bienvenue sur mon Portfolio</h1>
                 <h2>Étudiant en BTS SIO SLAM</h2>
                 <p>Découvrez mes projets et compétences en développement informatique</p>
-                <a href="pages/projets.html" class="cta-button">Voir mes projets</a>
+                <a href="projets.php" class="cta-button">Voir mes projets</a>
             </div>
         </section>
 
@@ -93,23 +46,22 @@
 
     <?php include("../include/footer/footer.php"); ?>
 
-    <script src="js/main.js"></script>
     <script>
-        VANTA.WAVES({
-            el: "#vanta-bg",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0x2c3e50,
-            shininess: 27.00,
-            waveHeight: 20.00,
-            waveSpeed: 0.75,
-            zoom: 0.65
-        });
+    VANTA.WAVES({
+        el: "#vanta-bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x2c3e50,
+        shininess: 27.00,
+        waveHeight: 20.00,
+        waveSpeed: 0.75,
+        zoom: 0.65
+    });
     </script>
 </body>
 </html>

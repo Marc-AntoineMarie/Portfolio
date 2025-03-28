@@ -12,56 +12,106 @@
 
 /* Introduction et méthode */
 .veille-intro {
-    margin-bottom: 4rem;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
 
-.veille-methode {
+.veille-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
 
-.methode-card {
-    background-color: var(--card-background);
+.veille-card {
+    background: linear-gradient(145deg, var(--card-background), var(--primary-color));
+    border-radius: 15px;
     padding: 2rem;
-    border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.methode-card:hover {
+.veille-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-.methode-card i {
+.veille-icon {
     font-size: 2.5rem;
     color: var(--secondary-color);
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
-.methode-card h3 {
+.veille-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.veille-card p {
     color: var(--text-color);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.veille-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     margin-bottom: 1.5rem;
 }
 
-.methode-card ul {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-.methode-card li {
-    margin-bottom: 0.5rem;
-    padding-left: 1.5rem;
-    position: relative;
-}
-
-.methode-card li::before {
-    content: "→";
-    position: absolute;
-    left: 0;
+.tag {
+    background-color: rgba(52, 152, 219, 0.2);
     color: var(--secondary-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    border: 1px solid var(--secondary-color);
+}
+
+.veille-date {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn i {
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    transform: translateX(5px);
+}
+
+.btn:hover i {
+    transform: translateX(3px);
 }
 
 /* Sujets de veille */
@@ -206,10 +256,81 @@
     background-color: #2980b9;
 }
 
+/* Modal styles */
+.modal-content {
+    background: linear-gradient(145deg, var(--card-background), var(--primary-color));
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-header {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.modal-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+}
+
+.modal-header h2 i {
+    color: var(--secondary-color);
+}
+
+.modal-body section {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-body section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.modal-body h4 {
+    color: var(--secondary-color);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.1rem;
+}
+
+.modal-body ul {
+    margin-left: 1rem;
+}
+
+.modal-body a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.modal-body a:hover {
+    color: #2980b9;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .veille-container {
         padding: 100px 1rem 1rem;
+    }
+
+    .veille-intro {
+        padding: 0 1rem;
+        font-size: 1rem;
+    }
+
+    .veille-grid {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
+
+    .veille-card {
+        padding: 1.5rem;
+    }
+
+    .tag {
+        font-size: 0.8rem;
     }
 
     .newsletter-form {
