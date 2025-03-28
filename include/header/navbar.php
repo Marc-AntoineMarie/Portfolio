@@ -1,6 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - BTS SIO SLAM</title>
+    <link rel="stylesheet" href="../css/include/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Three.js est nécessaire pour VANTA -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+ 
+</head>
+
 <nav class="navbar">
     <div class="logo">
-        <a href="../index.php">Mon Portfolio</a>
+        <a href="../index.php">Marc-Antoine Marie</a>
     </div>
     <ul class="nav-links">
         <li><a href="index.php">Accueil</a></li>
@@ -15,80 +29,6 @@
         <div class="line3"></div>
     </div>
 </nav>
-
-<style>
-/* Styles pour le menu burger */
-.burger {
-    display: none;
-    cursor: pointer;
-}
-
-.burger div {
-    width: 25px;
-    height: 3px;
-    background-color: var(--text-color);
-    margin: 5px;
-    transition: all 0.3s ease;
-}
-
-@media screen and (max-width: 768px) {
-    .nav-links {
-        position: fixed;
-        right: -100%;
-        top: 70px;
-        height: calc(100vh - 70px);
-        background-color: var(--primary-color);
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        transition: right 0.5s ease;
-        padding: 2rem;
-        display: flex;
-    }
-
-    .nav-links li {
-        opacity: 0;
-        margin: 1rem 0;
-    }
-
-    .nav-links.nav-active {
-        right: 0;
-    }
-
-    .nav-links.nav-active li {
-        opacity: 1;
-    }
-
-    .burger {
-        display: block;
-    }
-
-    /* Animation du burger */
-    .toggle .line1 {
-        transform: rotate(-45deg) translate(-5px, 6px);
-    }
-
-    .toggle .line2 {
-        opacity: 0;
-    }
-
-    .toggle .line3 {
-        transform: rotate(45deg) translate(-5px, -6px);
-    }
-
-    /* Animation des liens */
-    @keyframes navLinkFade {
-        from {
-            opacity: 0;
-            transform: translateX(50px);
-        }
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-}
-</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

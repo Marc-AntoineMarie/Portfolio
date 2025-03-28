@@ -1,3 +1,27 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #414848;
+    --text-color: #ffffff;
+    --accent-color: #e74c3c;
+    --card-background: #2d2d2d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
 .projets-container {
     padding: 120px 2rem 2rem;
     max-width: 1200px;
@@ -232,4 +256,21 @@
         width: 100%;
         text-align: center;
     }
+}
+/* Ensure modals and additional sections have dark background */
+.modal-content, 
+.veille-sujets, 
+.veille-newsletter {
+    background: linear-gradient(145deg, var(--card-background), var(--primary-color)) !important;
+    color: var(--text-color);
+}
+
+/* Additional padding to ensure full coverage */
+.veille-sujets, 
+.veille-newsletter {
+    padding-bottom: 4rem;
+}
+main {
+    position: relative;
+    z-index: 1;
 }
