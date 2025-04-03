@@ -30,8 +30,10 @@
         </div>
         <ul class="nav-links">
             <li><a href="index.php">Accueil</a></li>
+            <li><a href="cv.php">CV</a></li>
+            <li><a href="bts.php">BTS SIO SLAM</a></li>
             <li><a href="competences.php">Compétences</a></li>
-            <li><a href="projets.php">Projets</a></li>
+            <li><a href="projets.php">Réalisations</a></li>
             <li><a href="veille.php">Veille Technologique</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
