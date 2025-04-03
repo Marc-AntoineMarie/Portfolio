@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,12 @@
     <!-- Three.js est nécessaire pour VANTA -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
- 
+
 </head>
 <body>
-
-    <?php include("../include/header/navbar.php"); ?>
-
+    <header>
+        <?php include("../include/header/navbar.php"); ?>
+    </header>
     <main class="home-container">
         <div id="vanta-bg"></div>
         <section class="hero">
@@ -47,7 +48,7 @@
 
     <?php include("../include/footer/footer.php"); ?>
 
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
     <script>
         VANTA.WAVES({
             el: "#vanta-bg",
@@ -66,4 +67,5 @@
         });
     </script>
 </body>
+
 </html>

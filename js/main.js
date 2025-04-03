@@ -1,14 +1,3 @@
-// Gestion du menu burger pour mobile
-document.addEventListener('DOMContentLoaded', () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
-    
-    if (burger) {
-        burger.addEventListener('click', () => {
-            nav.classList.toggle('nav-active');
-            burger.classList.toggle('toggle');
-        });
-    }
 
     // Animation des barres de progression
     const progressBars = document.querySelectorAll('.progress');
@@ -35,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Observer les sections de compétences
     const competencesSections = document.querySelectorAll('.competences-section');
     competencesSections.forEach(section => observer.observe(section));
-});
 
 // Smooth scroll pour les ancres
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {

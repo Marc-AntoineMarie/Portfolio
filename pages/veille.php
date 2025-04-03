@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
     <link rel="stylesheet" href="../css/pages/veille.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    
-    <?php include("../include/header/navbar.php"); ?>
+
+    <header>
+        <?php include("../include/header/navbar.php"); ?>
+    </header>
 
     <main class="veille-container">
         <h1>Veille Technologique</h1>
@@ -54,7 +58,7 @@
         <!-- Sujets de veille -->
         <section class="veille-sujets">
             <h2>Sujets de Veille</h2>
-            
+
             <!-- Template d'un sujet de veille -->
             <article class="sujet-card">
                 <div class="sujet-header">
@@ -107,7 +111,9 @@
 
     <?php include("../include/footer/footer.php"); ?>
 
-    <script src="../js/main.js"></script>
-    <script src="../js/veille.js"></script>
+    <!-- <script src="../js/main.js"></script>
+    <script src="../js/veille.js"></script> -->
+
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
+<header>
     <?php include("../include/header/navbar.php"); ?>
-
+</header>
     <main class="projets-container">
         <h1>Mes Projets</h1>
 
@@ -52,7 +53,7 @@
                     <span class="close-modal">&times;</span>
                     <div class="projet-details">
                         <h2>Nom du Projet</h2>
-                        
+
                         <section class="projet-context">
                             <h3>Contexte du Projet</h3>
                             <p>Décrivez ici le contexte du projet...</p>
@@ -108,11 +109,12 @@
                 </div>
             </div>
         </div>
-    </main>
+        </main>
 
-    <?php include("../include/footer/footer.php"); ?>
+        <?php include("../include/footer/footer.php"); ?>
 
-    <script src="../js/main.js"></script>
-    <script src="../js/projets.js"></script>
+        <!-- <script src="../js/main.js"></script> -->
+        <!-- <script src="../js/projets.js"></script> -->
 </body>
+
 </html>
