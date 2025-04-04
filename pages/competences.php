@@ -32,19 +32,34 @@
                         </div>
                         <div class="competence-content">
                             <ul>
-                                <li>Participation à la valorisation de l'image numérique de l'organisation</li>
-                                <li>Référencement des services en ligne</li>
-                                <li>Participation stratégique à l'évolution et à l'enrichissement d'un site Web exploitant efficacement les données</li>
+                                <li>Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li>
+                                <li>Référencer les services en ligne de l’organisation et mesurer leur visibilité.</li>
+                                <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
                             </ul>
                             <div class="competence-details">
                                 <h5>Détails des compétences</h5>
-                                <p>Création et optimisation de sites web pour améliorer la visibilité en ligne de l'organisation. Mise en place de stratégies SEO et référencement pour augmenter la visibilité. Développement de fonctionnalités web innovantes exploitant les données de l'organisation.</p>
+                                <p>Création, optimisation et mise a jour de sites web pour améliorer la visibilité en ligne de l'organisation. Mise en place de stratégies SEO et référencement pour augmenter la visibilité. Développement de fonctionnalités web innovantes exploitant les données de l'organisation.</p>
+                                <br>
                                 <ul>
-                                    <li><strong>Outils maîtrisés :</strong> WordPress, HTML5, CSS3, JavaScript, PHP, Google Analytics</li>
-                                    <li><strong>Techniques appliquées :</strong> Responsive design, SEO on-page, Respect de la 3 click rule, intégration de médias sociaux</li>
+                                    <li><strong>Outils maîtrisés :</strong><br> WordPress, HTML5, CSS3, JavaScript, PHP, Google Analytics</li>
+                                    <li><strong>Techniques appliquées :</strong><br> Responsive design, SEO on-page, Respect de la 3 click rule, intégration de médias sociaux</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés : <a href="https://www.gcdeveloppement.fr/" target="_blank">GC Développement</a><span> / </span> <a href="https://lea-numerique.fr/" target="_blank" target="_blank"> Lea Numérique </a><span> – Site web vitrine </span></div>
+                            <div class="project-link">Projets associés :  <br>
+                                <span> – Site web vitrine entreprise </span>
+                                <br>
+                                <a href="https://www.gcdeveloppement.fr/" target="_blank">GC Développement</a>
+                                <span> / </span> 
+                                <a href="https://lea-numerique.fr/" target="_blank" target="_blank"> Lea Numérique </a>
+                                <br> <br> 
+                                <span> – Projet d'école </span>
+                                <br>
+                                <a href="#" target="_blank">Portfolio</a>
+                                <span> / </span> 
+                                <a href="#" target="_blank" target="_blank"> Welcome Training </a>
+                                <span> / </span> 
+                                <a href="#" target="_blank" target="_blank"> 1ClickAllEat </a>
+                            </div>
                         </div>
                     </div>
 
@@ -56,19 +71,33 @@
                         </div>
                         <div class="competence-content">
                             <ul>
-                                <li>Analyse des objectifs et modalités d'organisation d'un projet</li>
+                                <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
                                 <li>Planification des activités</li>
                                 <li>Évaluation des indicateurs de suivi et analyse des écarts</li>
                             </ul>
                             <div class="competence-details">
                                 <h5>Détails des compétences</h5>
                                 <p>Application des méthodologies de gestion de projet adaptées aux besoins spécifiques. Définition et suivi des jalons, des ressources et des contraintes. Mesure de la performance et ajustements en fonction des écarts observés.</p>
+                                <br>    
                                 <ul>
-                                    <li><strong>Méthodologies utilisées :</strong> Agile/Scrum, Kanban, Cycle en V</li>
-                                    <li><strong>Outils de gestion :</strong> Trello, GitHub Projects, MS Project</li>
+                                    <li><strong>Méthodologies utilisées :</strong><br> Agile/Scrum</li>
+                                    <li><strong>Outils de gestion :</strong><br> Trello, GitHub</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés : <span>1ClickAllEat</span></div>
+                            <div class="project-link">Projets associés :  <br>
+                                <span> – Site web vitrine entreprise </span>
+                                <br>
+                                <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
+                                <span> / </span> 
+                                <br> <br> 
+                                <span> – Projet d'école </span>
+                                <br>
+                                <a href="#" target="_blank">Portfolio</a>
+                                <span> / </span> 
+                                <a href="#" target="_blank" target="_blank"> Welcome Training </a>
+                                <span> / </span> 
+                                <a href="#" target="_blank" target="_blank"> 1ClickAllEat </a>
+                            </div>
                         </div>
                     </div>
 
@@ -80,19 +109,31 @@
                         </div>
                         <div class="competence-content">
                             <ul>
-                                <li>Réalisation des tests d'intégration et d'acceptation</li>
-                                <li>Déploiement de services</li>
-                                <li>Accompagnement des utilisateurs</li>
+                                <li>- Réalisation des tests d'intégration et d'acceptation d’un service</li>
+                                <li>- Déploiement de services</li>
+                                <li>- Accompagner les utilisateurs dans la mise en place d’un service</li>
                             </ul>
                             <div class="competence-details">
                                 <h5>Détails des compétences</h5>
                                 <p>Conception et exécution de tests rigoureux pour valider le bon fonctionnement des services. Mise en production et déploiement de solutions informatiques. Formation et support auprès des utilisateurs finaux.</p>
+                                <br>
                                 <ul>
-                                    <li><strong>Types de tests maîtrisés :</strong> Tests unitaires, d'intégration, fonctionnels et de charge</li>
-                                    <li><strong>Techniques de déploiement :</strong> CI/CD, conteneurisation, déploiement continu</li>
+                                    <li><strong>Types de tests maîtrisés :</strong><br> Tests unitaires, d'intégration, fonctionnels</li>
+                                    <li><strong>Techniques de déploiement :</strong><br> CI/CD, conteneurisation, déploiement continu</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés : <span>Welcome Training, GC SERVICE</span></div>
+                            <div class="project-link">Projets associés :  <br>
+                                <span> – Application entreprise </span>
+                                <br>
+                                <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
+                                <span> / </span> 
+                                <br> <br> 
+                                <span> – Projet d'école </span>
+                                <br>
+                                <a href="#" target="_blank" target="_blank"> Welcome Training </a>
+                                <span> / </span> 
+                                <a href="#" target="_blank" target="_blank"> 1ClickAllEat </a>
+                            </div>
                         </div>
                     </div>
 
@@ -105,18 +146,26 @@
                         <div class="competence-content">
                             <ul>
                                 <li>Recensement et identification des ressources numériques</li>
-                                <li>Exploitation des référentiels, normes et standards</li>
-                                <li>Vérification des conditions de continuité de service</li>
+                                <li>Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</li>
+                                <li>Mettre en place et vérifier les niveaux d’habilitation associés à un service</li>
+                                <li>Vérifier les conditions de la continuité d’un service informatique</li>
+                                <li>Gérer des sauvegardes</li>
+                                <li>Vérifier le respect des règles d’utilisation des ressources numériques</li>
                             </ul>
                             <div class="competence-details">
                                 <h5>Détails des compétences</h5>
                                 <p>Documentation et suivi des équipements et ressources informatiques. Application des standards et bonnes pratiques ITIL. Mise en place et surveillance des solutions de haute disponibilité et de continuité de service.</p>
+                                <br>
                                 <ul>
-                                    <li><strong>Outils d'inventaire :</strong> GLPI, OCS Inventory, Active Directory</li>
-                                    <li><strong>Solutions de continuité :</strong> Sauvegarde incrémentielle, PRA/PCA, clustering</li>
+                                    <li><strong>Outils d'inventaire :</strong><br> GLPI, OCS Inventory, Active Directory</li>
+                                    <li><strong>Solutions de continuité :</strong><br> Sauvegarde incrémentielle, PRA/PCA, clustering</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés : <span>GC SERVICE</span></div>
+                            <div class="project-link">Projets associés :  <br>
+                                <span> – Application entreprise </span>
+                                <br>
+                                <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
+                            </div>
                         </div>
                     </div>
 
@@ -129,18 +178,23 @@
                         <div class="competence-content">
                             <ul>
                                 <li>Collecte, suivi et orientation des demandes</li>
-                                <li>Traitement des demandes concernant les services réseau et système</li>
+                                <li>Traiter des demandes concernant les services réseau et système, applicatifs</li>
                                 <li>Traitement des demandes concernant les applications</li>
                             </ul>
                             <div class="competence-details">
                                 <h5>Détails des compétences</h5>
                                 <p>Mise en place et utilisation de systèmes de ticketing pour suivre les demandes. Résolution des problèmes d'infrastructure réseau et système. Dépannage et support applicatif pour les utilisateurs finaux.</p>
+                                <br>
                                 <ul>
-                                    <li><strong>Outils de ticketing :</strong> GLPI, Jira Service Desk, Zendesk</li>
-                                    <li><strong>Compétences techniques :</strong> Diagnostic réseau, troubleshooting système, résolution de bugs</li>
+                                    <li><strong>Outils de ticketing :</strong><br> ZOHO, ZOHO Service Desk, ZOHO Help Center, ZOHO CMR, ZOHO VAULT</li>
+                                    <li><strong>Compétences techniques :</strong><br> Gestion d'appels, Diagnostic téléphonique, Support à distance, Suivi d'incidents, Escalade, Communication client</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés : <span>GC SERVICE</span></div>
+                            <div class="project-link">Projets associés :  <br>
+                                <span> – Application entreprise </span>
+                                <br>
+                                <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
+                            </div>
                         </div>
                     </div>
 
@@ -153,18 +207,31 @@
                         <div class="competence-content">
                             <ul>
                                 <li>Mise en place d'un environnement d'apprentissage personnel</li>
-                                <li>Mise en œuvre d'outils et stratégies de veille informationnelle</li>
-                                <li>Gestion de son identité professionnelle</li>
+                                <li>Mettre en œuvre des outils et stratégies de veille informationnelle</li>
+                                <li>Gérer son identité professionnelle</li>
+                                <li>Développer son projet professionnel</li>
                             </ul>
                             <div class="competence-details">
                                 <h5>Détails des compétences</h5>
                                 <p>Création d'un écosystème d'apprentissage continu et de perfectionnement. Utilisation d'outils de curation et de veille technologique. Développement et maintenance d'une présence professionnelle en ligne.</p>
-                                <ul>
-                                    <li><strong>Sources de veille :</strong> Newsletters spécialisées, GitHub trends, forums techniques</li>
-                                    <li><strong>Développement personnel :</strong> Formation continue, certifications, participation à des hackathons</li>
+                                <br>
+                                 <ul>
+                                    <li><strong>Sources de veille :</strong><br> Newsletters spécialisées, GitHub trends, forums techniques, Réseaux sociaux professionnels, Conférences (dotjs, AFUP Day, jsconf, meetups) </li>
+                                    <li><strong>Développement personnel :</strong><br> Formation continue, Outils de veille (Feedly, GitHub, LinkedIn, Stack Overflow..) </li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés : <span>Tous projets</span></div>
+                            <div class="project-link">Projets associés :  <br>
+                                <span> – Application entreprise </span>
+                                <br>
+                                <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
+                                <span> / </span> 
+                                <br> <br> 
+                                <span> – Projet d'école </span>
+                                <br>
+                                <a href="#" target="_blank" target="_blank"> Welcome Training </a>
+                                <span> / </span> 
+                                <a href="#" target="_blank" target="_blank"> 1ClickAllEat </a>
+                            </div>
                         </div>
                     </div>
                 </div>
