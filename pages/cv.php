@@ -225,8 +225,9 @@
         </div>
     </main>
 
-    <?php include("../include/footer/footer.php"); ?>
-
+    <footer>
+        <?php include("../include/footer/footer.php"); ?>
+    </footer>
 
 </body>
 

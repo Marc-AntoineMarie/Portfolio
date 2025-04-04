@@ -147,90 +147,6 @@
             </div>
 
             <section class="bts-section">
-                <h3><i class="fas fa-check-circle"></i> Compétences acquises en BTS SIO SLAM</h3>
-
-                <div class="competences-grid">
-                    <div class="competence-item">
-                        <div class="competence-header">
-                            <i class="fas fa-laptop-code"></i>
-                            <h4>Développer la présence en ligne de l'organisation</h4>
-                        </div>
-                        <ul>
-                            <li>Participation à la valorisation de l'image numérique de l'organisation</li>
-                            <li>Référencement des services en ligne</li>
-                            <li>Participation à l'évolution d'un site Web exploitant les données</li>
-                        </ul>
-                        <div class="project-link">Projets associés : <span>Welcome Training, 1ClickAllEat</span></div>
-                    </div>
-
-                    <div class="competence-item">
-                        <div class="competence-header">
-                            <i class="fas fa-users-cog"></i>
-                            <h4>Travailler en mode projet</h4>
-                        </div>
-                        <ul>
-                            <li>Analyse des objectifs et modalités d'organisation d'un projet</li>
-                            <li>Planification des activités</li>
-                            <li>Évaluation des indicateurs de suivi et analyse des écarts</li>
-                        </ul>
-                        <div class="project-link">Projets associés : <span>1ClickAllEat</span></div>
-                    </div>
-
-                    <div class="competence-item">
-                        <div class="competence-header">
-                            <i class="fas fa-tools"></i>
-                            <h4>Mettre à disposition des utilisateurs un service informatique</h4>
-                        </div>
-                        <ul>
-                            <li>Réalisation des tests d'intégration et d'acceptation</li>
-                            <li>Déploiement de services</li>
-                            <li>Accompagnement des utilisateurs</li>
-                        </ul>
-                        <div class="project-link">Projets associés : <span>Welcome Training, GC SERVICE</span></div>
-                    </div>
-
-                    <div class="competence-item">
-                        <div class="competence-header">
-                            <i class="fas fa-server"></i>
-                            <h4>Gérer le patrimoine informatique</h4>
-                        </div>
-                        <ul>
-                            <li>Recensement et identification des ressources numériques</li>
-                            <li>Exploitation des référentiels, normes et standards</li>
-                            <li>Vérification des conditions de continuité de service</li>
-                        </ul>
-                        <div class="project-link">Projets associés : <span>GC SERVICE</span></div>
-                    </div>
-
-                    <div class="competence-item">
-                        <div class="competence-header">
-                            <i class="fas fa-headset"></i>
-                            <h4>Répondre aux incidents et aux demandes d'assistance</h4>
-                        </div>
-                        <ul>
-                            <li>Collecte, suivi et orientation des demandes</li>
-                            <li>Traitement des demandes concernant les services réseau et système</li>
-                            <li>Traitement des demandes concernant les applications</li>
-                        </ul>
-                        <div class="project-link">Projets associés : <span>GC SERVICE</span></div>
-                    </div>
-
-                    <div class="competence-item">
-                        <div class="competence-header">
-                            <i class="fas fa-graduation-cap"></i>
-                            <h4>Organiser son développement professionnel</h4>
-                        </div>
-                        <ul>
-                            <li>Mise en place d'un environnement d'apprentissage personnel</li>
-                            <li>Mise en œuvre d'outils et stratégies de veille informationnelle</li>
-                            <li>Gestion de son identité professionnelle</li>
-                        </ul>
-                        <div class="project-link">Projets associés : <span>Tous projets</span></div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="bts-section">
                 <h3><i class="fas fa-chart-line"></i> Tableau de synthèse E5</h3>
                 <p class="section-description">
                     Le tableau ci-dessous représente la synthèse des compétences mises en œuvre dans mes différents
@@ -278,7 +194,9 @@
         </div>
     </main>
 
-    <?php include("../include/footer/footer.php"); ?>
+    <footer>
+        <?php include("../include/footer/footer.php"); ?>
+    </footer>
 
 </body>
 

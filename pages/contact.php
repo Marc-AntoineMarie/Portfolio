@@ -51,7 +51,9 @@
             </section>
         </div>
 
-        <?php include("../include/footer/footer.php"); ?>
+        <footer>
+            <?php include("../include/footer/footer.php"); ?>
+        </footer>
 
         <!-- <script src="../js/main.js"></script> -->
         <!-- <script src="../js/contact.js"></script> -->

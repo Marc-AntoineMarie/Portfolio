@@ -109,7 +109,9 @@
         </section>
     </main>
 
-    <?php include("../include/footer/footer.php"); ?>
+    <footer>
+        <?php include("../include/footer/footer.php"); ?>
+    </footer>
 
     <!-- <script src="../js/main.js"></script>
     <script src="../js/veille.js"></script> -->

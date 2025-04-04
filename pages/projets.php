@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="../css/pages/projets.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-<header>
-    <?php include("../include/header/navbar.php"); ?>
-</header>
+    <header>
+        <?php include("../include/header/navbar.php"); ?>
+    </header>
     <main class="projets-container">
         <h1>Mes Projets</h1>
 
@@ -109,12 +110,13 @@
                 </div>
             </div>
         </div>
-        </main>
+    </main>
 
+    <footer>
         <?php include("../include/footer/footer.php"); ?>
-
-        <!-- <script src="../js/main.js"></script> -->
-        <!-- <script src="../js/projets.js"></script> -->
+    </footer>
+    <!-- <script src="../js/main.js"></script> -->
+    <!-- <script src="../js/projets.js"></script> -->
 </body>
 
 </html>
