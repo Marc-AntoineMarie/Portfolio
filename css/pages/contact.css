@@ -11,11 +11,29 @@ padding: 0;
 box-sizing: border-box;
 }
 
+/* Ajouter au début de votre fichier competences.css ou dans un fichier global */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-font-family: 'Arial', sans-serif;
-background-color: var(--background-color);
-color: var(--text-color);
-line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* viewport height */
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+main {
+    flex: 1 0 auto; /* Cette propriété est cruciale - elle permet au contenu de s'étendre */
+}
+
+footer {
+    flex-shrink: 0; /* Empêche le footer de rétrécir */
 }
 
 .contact-container {
