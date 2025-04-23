@@ -37,7 +37,7 @@
                                 <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
                             </ul>
                             <div class="competence-details">
-                                <h5>Détails des compétences</h5>
+                                <h5>Compétences appliquées</h5>
                                 <p>Création, optimisation et mise a jour de sites web pour améliorer la visibilité en ligne de l'organisation. Mise en place de stratégies SEO et référencement pour augmenter la visibilité. Développement de fonctionnalités web innovantes exploitant les données de l'organisation.</p>
                                 <br>
                                 <ul>
@@ -45,14 +45,14 @@
                                     <li><strong>Techniques appliquées :</strong><br> Responsive design, SEO on-page, Respect de la 3 click rule, intégration de médias sociaux</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés :  <br>
+                            <div class="project-link">Réalisations associés :  <br>
                                 <span> – Site web vitrine entreprise </span>
                                 <br>
                                 <a href="https://www.gcdeveloppement.fr/" target="_blank">GC Développement</a>
                                 <span> / </span> 
                                 <a href="https://lea-numerique.fr/" target="_blank" target="_blank"> Lea Numérique </a>
                                 <br> <br> 
-                                <span> – Projet d'école </span>
+                                <span> – Réalisations d'école </span>
                                 <br>
                                 <a href="#" target="_blank">Portfolio</a>
                                 <span> / </span> 

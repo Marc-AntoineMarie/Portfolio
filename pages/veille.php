@@ -26,10 +26,10 @@
                     <i class="fas fa-search"></i>
                     <h3>Sources d'Information</h3>
                     <ul>
-                        <li>Sites spécialisés</li>
-                        <li>Newsletters techniques</li>
                         <li>Flux RSS</li>
+                        <li>Newsletters techniques</li>
                         <li>Réseaux sociaux professionnels</li>
+                        <li>Sites spécialisés</li>
                     </ul>
                 </div>
                 <div class="methode-card">
