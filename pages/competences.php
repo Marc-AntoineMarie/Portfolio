@@ -84,13 +84,12 @@
                                     <li><strong>Outils de gestion :</strong><br> Trello, GitHub</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés :  <br>
-                                <span> – Site web vitrine entreprise </span>
+                            <div class="project-link">Réalisations associés :  <br>
+                            <span> – Application entreprise </span>
                                 <br>
                                 <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
-                                <span> / </span> 
-                                <br> <br> 
-                                <span> – Projet d'école </span>
+                                <br> <br>
+                                <span> – Réalisations d'école </span>
                                 <br>
                                 <a href="#" target="_blank">Portfolio</a>
                                 <span> / </span> 
@@ -122,13 +121,13 @@
                                     <li><strong>Techniques de déploiement :</strong><br> CI/CD, conteneurisation, déploiement continu</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés :  <br>
+                            <div class="project-link">Réalisations associées :  <br>
                                 <span> – Application entreprise </span>
                                 <br>
                                 <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
                                 <span> / </span> 
                                 <br> <br> 
-                                <span> – Projet d'école </span>
+                                <span> – Réalisations d'école </span>
                                 <br>
                                 <a href="#" target="_blank" target="_blank"> Welcome Training </a>
                                 <span> / </span> 
@@ -161,7 +160,7 @@
                                     <li><strong>Solutions de continuité :</strong><br> Sauvegarde incrémentielle, PRA/PCA, clustering</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés :  <br>
+                            <div class="project-link">Réalisations associées :  <br>
                                 <span> – Application entreprise </span>
                                 <br>
                                 <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
@@ -190,7 +189,7 @@
                                     <li><strong>Compétences techniques :</strong><br> Gestion d'appels, Diagnostic téléphonique, Support à distance, Suivi d'incidents, Escalade, Communication client</li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés :  <br>
+                            <div class="project-link">Réalisations associées :  <br>
                                 <span> – Application entreprise </span>
                                 <br>
                                 <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
@@ -220,13 +219,13 @@
                                     <li><strong>Développement personnel :</strong><br> Formation continue, Outils de veille (Feedly, GitHub, LinkedIn, Stack Overflow..) </li>
                                 </ul>
                             </div>
-                            <div class="project-link">Projets associés :  <br>
+                            <div class="project-link">Réalisations associées :  <br>
                                 <span> – Application entreprise </span>
                                 <br>
                                 <a href="https://www.gcdeveloppement.fr/" target="_blank">Logiciel LDAP</a>
                                 <span> / </span> 
                                 <br> <br> 
-                                <span> – Projet d'école </span>
+                                <span> – Réalisations d'école </span>
                                 <br>
                                 <a href="#" target="_blank" target="_blank"> Welcome Training </a>
                                 <span> / </span> 

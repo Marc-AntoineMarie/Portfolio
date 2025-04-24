@@ -27,7 +27,8 @@
                     <h3>Sources d'Information</h3>
                     <ul>
                         <li>Flux RSS</li>
-                        <li>Newsletters techniques</li>
+                        <li>Meetup</li>
+                        <li>Conférences</li> 
                         <li>Réseaux sociaux professionnels</li>
                         <li>Sites spécialisés</li>
                     </ul>
@@ -40,6 +41,9 @@
                         <li>GitHub</li>
                         <li>LinkedIn</li>
                         <li>Stack Overflow</li>
+                        <li>AFUP PHP</li>
+                        <li>DotsJS</li>
+                        <li>Human Talk</li>
                     </ul>
                 </div>
                 <div class="methode-card">
@@ -49,64 +53,99 @@
                         <li>Veille quotidienne</li>
                         <li>Analyse hebdomadaire</li>
                         <li>Synthèse mensuelle</li>
+                        <li>Lecture de patch note</li>
                         <li>Archivage</li>
+                        <li>Ecoute de podcast</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Sujets de veille -->
-        <section class="veille-sujets">
-            <h2>Sujets de Veille</h2>
-
-            <!-- Template d'un sujet de veille -->
-            <article class="sujet-card">
-                <div class="sujet-header">
-                    <h3>Titre du sujet de veille</h3>
-                    <span class="date">Date de début : XX/XX/XXXX</span>
-                </div>
-                <div class="sujet-content">
-                    <div class="sujet-description">
-                        <h4>Contexte</h4>
-                        <p>Description du contexte et de l'importance du sujet...</p>
-                    </div>
-                    <div class="sujet-objectifs">
-                        <h4>Objectifs</h4>
-                        <ul>
-                            <li>Objectif 1...</li>
-                            <li>Objectif 2...</li>
-                        </ul>
-                    </div>
-                    <div class="sujet-sources">
-                        <h4>Sources principales</h4>
-                        <ul>
-                            <li><a href="#" target="_blank">Source 1</a></li>
-                            <li><a href="#" target="_blank">Source 2</a></li>
-                        </ul>
-                    </div>
-                    <div class="sujet-resultats">
-                        <h4>Résultats et Applications</h4>
-                        <p>Description des résultats et de leur application...</p>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Zone pour ajouter de nouveaux sujets -->
-            <div class="add-sujet-placeholder">
-                <i class="fas fa-plus-circle"></i>
-                <p>Espace pour ajouter de nouveaux sujets de veille</p>
+        <!-- Sujet de veille PHP -->
+        <article class="sujet-card">
+            <div class="sujet-header">
+                <h3>Veille sur PHP</h3>
+                <span class="date">Date de début : 01/06/2024</span>
             </div>
-        </section>
+            <div class="sujet-content">
+                <div class="sujet-description">
+                    <h4>Contexte</h4>
+                    <p>J'ai choisi de réaliser une veille sur PHP car c'est un langage que je pratique à la fois en cours et chez moi. Je souhaite rester informé des nouveautés, des évolutions et des bonnes pratiques, et ainsi améliorer mon niveau et ma sécurité en développement web.</p>
+                </div>
+                <div class="sujet-objectifs">
+                    <h4>Objectifs</h4>
+                    <ul>
+                        <li>Suivre les mises à jour majeures et correctifs de sécurité du langage PHP.</li>
+                        <li>Comprendre l'impact des nouvelles fonctionnalités et des failles découvertes.</li>
+                        <li>Expérimenter les frameworks associés pour élargir mes compétences.</li>
+                    </ul>
+                </div>
+                <div class="sujet-sources">
+                    <h4>Sources principales</h4>
+                    <ul>
+                        <li>Flux RSS, Meetup, Conférences, Réseaux sociaux professionnels, Sites spécialisés (stackoverflow, php.net), Feedly, GitHub, LinkedIn, Stack Overflow, AFUP PHP, Human Talk.</li>
+                    </ul>
+                </div>
+                <div class="sujet-resultats">
+                    <h4>Résultats et Applications</h4>
+                    <p>Depuis juin 2024, je n’ai pas encore utilisé les nouveautés de PHP, mais je m’y intéresse pour mieux les comprendre.
+                        <br> Par exemple, Lazy Objects = objets créés seulement quand on en a besoin (meilleure performance).
+                        <br> Property Hooks = permet d’intervenir quand on lit ou modifie une propriété d’un objet.
+                        <br> Visibilité asymétrique = une propriété peut être lisible publiquement mais modifiable seulement en privé.
+                        <br> J’ai aussi découvert la faille critique CVE-2024-4577, qui permettait à un pirate d’exécuter du code malveillant via PHP-CGI.
+                        <br> Cela m’a sensibilisé à l’importance des mises à jour de sécurité et des bonnes pratiques.
+                        <br> Cette veille m’aide à mieux comprendre les évolutions du langage et à préparer mon avenir en développement web.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sujet de veille JavaScript -->
+        <article class="sujet-card">
+            <div class="sujet-header">
+                <h3>Veille sur JavaScript</h3>
+                <span class="date">Date de début : 01/06/2024</span>
+            </div>
+            <div class="sujet-content">
+                <div class="sujet-description">
+                    <h4>Contexte</h4>
+                    <p>JavaScript est également un langage central dans ma formation et mes projets personnels. Je m'intéresse particulièrement au JavaScript natif, mais j'aime aussi explorer les frameworks pour enrichir mes compétences et suivre les tendances du web moderne.</p>
+                </div>
+                <div class="sujet-objectifs">
+                    <h4>Objectifs</h4>
+                    <ul>
+                        <li>Se tenir informé des évolutions et des nouveautés du langage natif.</li>
+                        <li>Tester et adopter de nouvelles fonctionnalités pour améliorer mes projets.</li>
+                        <li>Comprendre l'impact des nouvelles méthodes et outils sur le développement web.</li>
+                    </ul>
+                </div>
+                <div class="sujet-sources">
+                    <h4>Sources principales</h4>
+                    <ul>
+                    <li>Flux RSS, Meetup, Conférences, Réseaux sociaux professionnels, Sites spécialisés (stackoverflow, mdn web doc), Feedly, GitHub, LinkedIn, DotsJS, Human Talk.</li>
+                    </ul>
+                </div>
+                <div class="sujet-resultats">
+                    <h4>Résultats et Applications</h4>
+                    <p>Depuis juin 2024, je me suis intéressé aux nouveautés de JavaScript pour suivre l’évolution du langage.
+                        <br> Par exemple, Temporal va bientôt remplacer Date pour mieux gérer les dates et fuseaux horaires.
+                        <br> Les Array grouping (Array.groupBy) facilitent le tri d’un tableau par catégorie.
+                        <br> La syntaxe "pipeline operator" (|>) rend les chaînes de fonctions plus lisibles (encore en phase de proposition).
+                        <br> J’ai aussi lu sur les Records & Tuples, des structures de données immuables plus fiables que les objets classiques.
+                        <br> Certaines failles XSS récentes m’ont rappelé l’importance de sécuriser les entrées utilisateur (ex : DOMPurify).
+                        <br> Cette veille me permet de suivre les tendances et d’améliorer progressivement ma compréhension du langage.</p>
+                </div>
+            </div>
+        </article>
 
         <!-- Section Newsletter -->
-        <section class="veille-newsletter">
+        <!-- <section class="veille-newsletter">
             <h2>Restez Informé</h2>
             <p>Abonnez-vous à ma newsletter pour recevoir mes dernières découvertes technologiques</p>
             <form class="newsletter-form">
                 <input type="email" placeholder="Votre adresse email" required>
                 <button type="submit">S'abonner</button>
             </form>
-        </section>
+        </section> -->
     </main>
 
     <footer>
