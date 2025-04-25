@@ -16,95 +16,114 @@
     <main class="projets-container">
         <h1>Mes Projets</h1>
 
-        <!-- Filtres de projets -->
-        <div class="projet-filters">
-            <button class="filter-btn active" data-filter="all">Tous</button>
-            <button class="filter-btn" data-filter="web">Web</button>
-            <button class="filter-btn" data-filter="application">Applications</button>
-            <button class="filter-btn" data-filter="base-donnees">Base de données</button>
-        </div>
-
         <!-- Grille des projets -->
         <div class="projets-grid">
-            <!-- Template de projet - À dupliquer pour chaque projet -->
+            <!-- Projet réel : 1ClickAllEat -->
             <article class="projet-card" data-category="web">
                 <div class="projet-image">
-                    <img src="../assets/placeholder-project.jpg" alt="Image du projet">
+                    <img src="../assets/picture/1ClickAllEat.png" alt="1ClickAllEat" style="object-fit:cover;width:100%;height:100%;">
                 </div>
                 <div class="projet-content">
-                    <h3>Nom du Projet</h3>
+                    <h3>1ClickAllEat</h3>
                     <div class="projet-tags">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">JavaScript</span>
+                        <span class="tag">Laravel</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">Breeze</span>
+                        <span class="tag">Blade</span>
+                        <span class="tag">PhpMyAdmin</span>
+                        <span class="tag">SQL</span>
                     </div>
                     <p class="projet-description">
-                        Description courte du projet...
+                        Application web de réservation et commande de repas en ligne pour restaurants, pensée pour fluidifier l'expérience client et optimiser la gestion côté restaurateur.
                     </p>
                     <div class="projet-links">
-                        <a href="#" class="btn-details">Voir les détails</a>
-                        <a href="#" class="btn-github"><i class="fab fa-github"></i></a>
+                        <a href="#projetModal1ClickAllEat" class="btn-details">Voir les détails</a>
+                        <a href="https://github.com/Marc-AntoineMarie/1ClickAllEat" class="btn-github" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://1clickalleat-demo.com" class="btn-demo" target="_blank">Démo</a>
+                        <a href="../assets/picture/Cahier_des_Charges_1ClickAllEat.pdf" class="btn-pdf" target="_blank">Cahier des charges</a>
                     </div>
                 </div>
             </article>
 
-            <!-- Section détaillée du projet (popup) -->
-            <div class="projet-details-modal" id="projetModal">
+            <!-- Modal détaillée pour 1ClickAllEat -->
+            <div class="projet-details-modal" id="projetModal1ClickAllEat">
                 <div class="modal-content">
                     <span class="close-modal">&times;</span>
                     <div class="projet-details">
-                        <h2>Nom du Projet</h2>
+                        <h2>1ClickAllEat</h2>
+                        <h2>1ClickAllEat</h2>
 
                         <section class="projet-context">
                             <h3>Contexte du Projet</h3>
-                            <p>Décrivez ici le contexte du projet...</p>
+                            <p>
+                                Application développée entre novembre 2024 et avril 2025 dans le cadre de ma formation BTS SIO. Le projet vise à permettre la réservation et la prise de commande en ligne dans des restaurants, pour une expérience sans attente, tout en optimisant la gestion côté restaurateur. J'ai travaillé seul sur toutes les phases du projet.
+                            </p>
                         </section>
 
                         <section class="projet-environment">
                             <h3>Environnement Technologique</h3>
                             <ul>
-                                <li>Front-end : </li>
-                                <li>Back-end : </li>
-                                <li>Base de données : </li>
-                                <li>Outils : </li>
+                                <li>Front-end : Blade (Laravel), Bootstrap, responsive design</li>
+                                <li>Back-end : Laravel (PHP)</li>
+                                <li>Base de données : SQLite (local), PhpMyAdmin (VPS)</li>
+                                <li>Outils : Breeze, Faker pour les données de test, hébergement HTTPS</li>
                             </ul>
                         </section>
 
                         <section class="projet-tasks">
                             <h3>Tâches Réalisées</h3>
                             <ul>
-                                <li>Tâche 1...</li>
-                                <li>Tâche 2...</li>
+                                <li>Conception et développement complet de l’application (front-end et back-end)</li>
+                                <li>Création de l’architecture MVC sous Laravel</li>
+                                <li>Implémentation de la gestion des restaurants, menus, commandes, réservations</li>
+                                <li>Authentification multi-profils (clients, restaurateurs)</li>
+                                <li>Déploiement sur serveur, mise en place du HTTPS</li>
+                                <li>Utilisation de l’IA pour l’inspiration design et le débogage</li>
+                                <li>Tests unitaires et gestion des données de test avec Faker</li>
                             </ul>
                         </section>
 
                         <section class="projet-timeline">
                             <h3>Planning du Projet</h3>
                             <div class="timeline">
-                                <!-- Insérez ici votre diagramme de Gantt ou PERT -->
+                                Projet mené de novembre 2024 à avril 2025, avec phases de conception, développement, tests, puis déploiement et amélioration continue. Travail réparti sur plusieurs semaines, avec une montée en compétences progressive sur Laravel.
                             </div>
-                        </section>
+                            <div style="margin-top:1rem;">
+                                <a href="../assets/picture/Gantt_1ClickAllEat.pdf" class="btn-pdf" target="_blank">Télécharger le Gantt (PDF)</a>
+    </div>
+</section>
 
                         <section class="projet-challenges">
                             <h3>Difficultés et Solutions</h3>
                             <div class="challenge">
-                                <h4>Difficulté 1</h4>
-                                <p>Description de la difficulté...</p>
-                                <p><strong>Solution :</strong> Description de la solution...</p>
+                                <h4>Découverte de Laravel et adaptation à un nouveau framework</h4>
+                                <p>Avant ce projet, je n'avais jamais utilisé de framework PHP. J'ai dû m'approprier Laravel, comprendre son fonctionnement (routes, migrations, Blade, etc.) et apprendre à structurer un projet complet.</p>
+                                <p><strong>Solution :</strong> Documentation officielle, tutoriels, essais/erreurs.</p>
+                            </div>
+                            <div class="challenge">
+                                <h4>Gestion de la personnalisation graphique</h4>
+                                <p>Pas de maquette initiale : j’ai adapté des templates Bootstrap pour obtenir un rendu professionnel et responsive, en prévoyant la possibilité de personnaliser le style pour chaque restaurant à l’avenir.</p>
+                                <p><strong>Solution :</strong> Recherche d’exemples, adaptation de templates, tests sur différents supports.</p>
                             </div>
                         </section>
 
                         <section class="projet-competences">
                             <h3>Compétences Mobilisées</h3>
                             <ul>
-                                <li>Compétence 1 du référentiel...</li>
-                                <li>Compétence 2 du référentiel...</li>
+                                <li>Développement web fullstack (Laravel, PHP, Blade, Bootstrap)</li>
+                                <li>Gestion de projet en autonomie</li>
+                                <li>Implémentation de l’authentification et de la sécurité</li>
+                                <li>Déploiement d’application web et gestion de base de données</li>
+                                <li>Utilisation d’outils de tests et d’automatisation</li>
                             </ul>
                         </section>
 
                         <section class="projet-bilan">
                             <h3>Bilan Personnel</h3>
-                            <p>Votre bilan personnel du projet...</p>
+                            <p>
+                                Je suis fier d’avoir mené ce projet à bien, seul, en développant des fonctionnalités avancées et en progressant énormément sur Laravel et l’écosystème PHP. Ce projet m’a permis de gagner en autonomie, en rigueur et en capacité à résoudre des problèmes complexes. Si je devais le refaire aujourd’hui, je l’aborderais de façon encore plus structurée et ambitieuse, avec des fonctionnalités innovantes pour les restaurateurs et les clients.
+                            </p>
                         </section>
                     </div>
                 </div>
@@ -115,8 +134,9 @@
     <footer>
         <?php include("../include/footer/footer.php"); ?>
     </footer>
-    <!-- <script src="../js/main.js"></script> -->
-    <!-- <script src="../js/projets.js"></script> -->
+
+    <script src="../js/main.js"></script>
+    <script src="../js/projets.js"></script>
 </body>
 
 </html>

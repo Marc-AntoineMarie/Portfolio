@@ -21,6 +21,11 @@
         <!-- Compétences BTS SIO -->
         <section class="competences-section">
             <h2>Compétences du Référentiel BTS SIO</h2>
+<div style="margin-bottom:1.5rem;">
+    <a href="../assets/picture/BTS_SIO_2025_Annexe_8_1_Epreuve_E5_Tableau_de_synthese.xlsx" class="btn-pdf" target="_blank">
+        Voir la fiche de synthèse BTS SIO (PDF)
+    </a>
+</div>
             <section class="bts-section">
 
                 <div class="competences-grid">

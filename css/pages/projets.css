@@ -49,30 +49,6 @@ footer {
     color: var(--secondary-color);
 }
 
-/* Filtres */
-.projet-filters {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 3rem;
-    flex-wrap: wrap;
-}
-
-.filter-btn {
-    padding: 0.5rem 1.5rem;
-    border: none;
-    background-color: var(--card-background);
-    color: var(--text-color);
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.filter-btn:hover,
-.filter-btn.active {
-    background-color: var(--secondary-color);
-}
-
 /* Grille des projets */
 .projets-grid {
     display: grid;
@@ -140,12 +116,22 @@ footer {
 
 .projet-links {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: flex-start;
     align-items: center;
 }
 
+.projet-links a {
+    color: var(--text-color) !important;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
 .btn-details,
-.btn-github {
+.btn-github,
+.btn-demo,
+.btn-pdf {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-decoration: none;
@@ -157,9 +143,26 @@ footer {
     color: var(--text-color);
 }
 
-.btn-github {
-    background-color: #333;
-    color: var(--text-color);
+.btn-pdf {
+    background-color: #27ae60;
+    color: var(--text-color) !important;
+    text-decoration: none !important;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    transition: background 0.3s, opacity 0.3s;
+    box-shadow: 0 2px 8px rgba(39,174,96,0.08);
+    cursor: pointer;
+}
+
+.btn-pdf:hover {
+    background-color: #219150;
+    opacity: 0.85;
+    text-decoration: none !important;
 }
 
 .btn-details:hover,

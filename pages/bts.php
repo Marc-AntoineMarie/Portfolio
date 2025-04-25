@@ -146,18 +146,7 @@
                 </section>
             </div>
 
-            <section class="bts-section">
-                <h3><i class="fas fa-chart-line"></i> Tableau de synthèse E5</h3>
-                <p class="section-description">
-                    Le tableau ci-dessous représente la synthèse des compétences mises en œuvre dans mes différents
-                    projets professionnels, conformément aux exigences de l'épreuve E5.
-                </p>
-                <!-- Intégration du tableau Excel exporté via une iframe -->
-                <div id="excel-table" class="document-placeholder large">
-                    <iframe src="../assets/BTS SIO - 2025 - Annexe 8-1 - Epreuve E5 - Tableau de synthese.htm"
-                        frameborder="0" style="width:100%; height:900px; overflow:auto;"></iframe>
-                </div>
-            </section>
+<!-- Tableau de synthèse E5 masqué temporairement -->
 
             <section class="bts-section">
                 <h3><i class="fas fa-clipboard-check"></i> Bilan personnel</h3>

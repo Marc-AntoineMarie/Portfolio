@@ -22,29 +22,42 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Gestion du modal de détails
-    const modal = document.getElementById('projetModal');
+    // Gestion des modales de détails (multi-modal)
     const detailButtons = document.querySelectorAll('.btn-details');
-    const closeModal = document.querySelector('.close-modal');
-
     detailButtons.forEach(button => {
         button.addEventListener('click', (e) => {
             e.preventDefault();
-            modal.style.display = 'block';
-            document.body.style.overflow = 'hidden'; // Empêcher le défilement
+            const modalId = button.getAttribute('href');
+            const modal = document.querySelector(modalId);
+            const header = document.querySelector('header');
+            const footer = document.querySelector('footer');
+            if (modal) {
+                modal.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+                // Cacher header et footer
+                if (header) header.style.display = 'none';
+                if (footer) footer.style.display = 'none';
+                // Fermer la modale sur croix
+                const closeBtn = modal.querySelector('.close-modal');
+                if (closeBtn) {
+                    closeBtn.onclick = () => {
+                        modal.style.display = 'none';
+                        document.body.style.overflow = 'auto';
+                        if (header) header.style.display = 'block';
+                        if (footer) footer.style.display = 'block';
+                    };
+                }
+                // Fermer la modale si clic à l'extérieur du contenu
+                window.onclick = (event) => {
+                    if (event.target === modal) {
+                        modal.style.display = 'none';
+                        document.body.style.overflow = 'auto';
+                        if (header) header.style.display = 'block';
+                        if (footer) footer.style.display = 'block';
+                    }
+                };
+            }
         });
-    });
-
-    closeModal.addEventListener('click', () => {
-        modal.style.display = 'none';
-        document.body.style.overflow = 'auto'; // Réactiver le défilement
-    });
-
-    window.addEventListener('click', (e) => {
-        if (e.target === modal) {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }
     });
 
     // Animation d'apparition des projets
