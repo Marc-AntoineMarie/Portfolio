@@ -97,7 +97,7 @@
                         <br> Cette veille m’aide à mieux comprendre les évolutions du langage et à préparer mon avenir en développement web.</p>
                 </div>
                 <div class="veille-btn-container">
-            <button class="btn-pdf" data-bs-toggle="modal" data-bs-target="#modalVeillePHP">Articles de veille PHP</button>
+            <button class="btn-veille-modal" data-bs-toggle="modal" data-bs-target="#modalVeillePHP">Articles de veille PHP</button>
         </div>
             </div>
         </article>
@@ -138,7 +138,7 @@
                         <br> Cette veille me permet de suivre les tendances et d’améliorer progressivement ma compréhension du langage.</p>
                 </div>
                 <div class="veille-btn-container">
-            <button class="btn-pdf" data-bs-toggle="modal" data-bs-target="#modalVeilleJS">Articles de veille JavaScript</button>
+            <button class="btn-veille-modal" data-bs-toggle="modal" data-bs-target="#modalVeilleJS">Articles de veille JavaScript</button>
         </div>
             </div>
         </article>
@@ -155,55 +155,164 @@
         </section> -->
     <!-- Modal PHP -->
     <div class="modal fade" id="modalVeillePHP" tabindex="-1" aria-labelledby="modalVeillePHPLbl" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
-          <div class="modal-header">
+        <div class="modal-header">
+            <button type="button" class="btn-close close-left" data-bs-dismiss="modal" aria-label="Close"></button>
             <h5 class="modal-title" id="modalVeillePHPLbl">Articles de veille PHP</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close close-right" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
+        <div class="modal-body">
+
+            <!-- Article 1 -->
             <div class="veille-article">
-              <h6><a href="https://www.php.net/releases/8.3/fr.php" target="_blank">PHP 8.3 : nouveautés et évolutions</a></h6>
-              <p>Découvrez les principales nouveautés de PHP 8.3 : readonly classes, améliorations de performance, évolutions de la syntaxe, et sécurité renforcée.</p>
+            <h6>
+                <a href="https://www.php.net/releases/8.3/fr.php" target="_blank">
+                PHP 8.3 : nouveautés et retours d’expérience
+                </a>
+            </h6>
+            <p>
+                <strong>Contexte :</strong> Sorti en décembre 2023, PHP 8.3 poursuit l’évolution du langage vers plus de performance et de sécurité. Cette version introduit notamment les <em>readonly classes</em>, qui permettent de déclarer en une seule instruction que tous les attributs d’une classe sont en lecture seule, renforçant ainsi l’immutabilité et la sécurité des objets.
+            </p>
+            <p>
+                <strong>Points clés :</strong><br>
+                • <em>Fibres</em> (fibers) – un modèle de concurrence légère, plus simple à gérer qu’une vraie coroutine, idéal pour découpler des traitements asynchrones sans complexité excessive.<br>
+                • <em>Improvements des enums</em> – prise en charge des méthodes statiques et des cas d’usage avancés pour modéliser vos états applicatifs.<br>
+                • Optimisations JIT et réductions du memory footprint, avec des benchmarks montrant jusqu’à 5 % de gain sur certaines requêtes API.
+            </p>
+            <p>
+                En pratique, adopter PHP 8.3 signifie pouvoir profiter de classes immuables par défaut, d’un modèle asynchrone plus simple et de performances légèrement améliorées sur vos applications web.
+            </p>
             </div>
+
+            <!-- Article 2 -->
             <div class="veille-article">
-              <h6><a href="https://www.lemondeinformatique.fr/actualites/lire-faille-critique-dans-php-cve-2024-4577-92587.html" target="_blank">Faille critique CVE-2024-4577</a></h6>
-              <p>Analyse de la faille de sécurité majeure découverte en 2024 sur PHP-CGI, ses impacts et les recommandations de mise à jour.</p>
+            <h6>
+                <a href="https://www.it-connect.fr/serveurs-web-cve-2024-4577-cette-faille-critique-dans-php-exploitee-a-grande-echelle/" target="_blank">
+                Analyse de la faille critique CVE-2024-4577
+                </a>
+            </h6>
+            <p>
+                <strong>Contexte :</strong> En février 2024, plusieurs exploitations massives de la vulnérabilité CVE-2024-4577 ont été observées sur des serveurs PHP-CGI exposés. Cette faille permettait un contrôle total du serveur en injectant des paramètres malveillants dans la requête HTTP.
+            </p>
+            <p>
+                <strong>Impacts :</strong><br>
+                • Exécution de code arbitraire à distance<br>
+                • Possibilité de pivoter vers d’autres services sur le réseau interne<br>
+                • Affectait PHP 7.4, 8.0 et 8.1 avant les correctifs de mars 2024<br>
+                • Recommandation de patch immédiat et de désactivation du mode CGI pour les usages non indispensables.
+            </p>
+            <p>
+                Cette analyse vous aidera à comprendre comment la faille fonctionnait, pourquoi la mise à jour rapide est cruciale, et quelles bonnes pratiques adopter (filtrage strict des entrées, least privilege sur les processus web).
+            </p>
             </div>
+
+            <!-- Article 3 -->
             <div class="veille-article">
-              <h6><a href="https://www.afup.org/" target="_blank">AFUP : communauté et actualités PHP</a></h6>
-              <p>Suivez l’actualité du PHP en France, conférences, événements et bonnes pratiques partagées par la communauté AFUP.</p>
+            <h6>
+                <a href="https://blog.jetbrains.com/phpstorm/2024/03/phpstorm-2024-1-eap-new-features/" target="_blank">
+                JetBrains PhpStorm 2024.1 EAP : focus sur la qualité de code
+                </a>
+            </h6>
+            <p>
+                <strong>Contexte :</strong> PhpStorm reste l’IDE de référence pour PHP ; la version 2024.1 (en Early Access depuis mars 2024) renforce l’intégration des outils d’analyse statique et des linters.
+            </p>
+            <p>
+                <strong>Nouveautés :</strong><br>
+                • Inspection PSR-12 enrichie : détection automatique des violations de style et suggestions de correction inline<br>
+                • Intégration native de Psalm et PHPStan : signalez directement dans l’éditeur les problèmes de type et de sécurité sans passer par la console<br>
+                • Refactoring amélioré : renommage en cascade, extraction de méthodes plus fiable, aperçu visuel des changements avant application.
+            </p>
+            <p>
+                En adoptant cette version, vous gagnez en productivité et en sûreté : votre code reste propre et aligné avec les standards, et les failles communes sont identifiées dès la rédaction.
+            </p>
             </div>
-          </div>
+
         </div>
-      </div>
+        </div>
     </div>
+    </div>
+
 
     <!-- Modal JavaScript -->
     <div class="modal fade" id="modalVeilleJS" tabindex="-1" aria-labelledby="modalVeilleJSLbl" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
-          <div class="modal-header">
+        <div class="modal-header">
+            <button type="button" class="btn-close close-left" data-bs-dismiss="modal" aria-label="Close"></button>
             <h5 class="modal-title" id="modalVeilleJSLbl">Articles de veille JavaScript</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close close-right" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
+        <div class="modal-body">
+
+            <!-- Article 1 -->
             <div class="veille-article">
-              <h6><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">MDN JavaScript : documentation et nouveautés</a></h6>
-              <p>Consultez les dernières évolutions du langage, les nouvelles fonctionnalités (Temporal, pipeline operator, etc.) et les bonnes pratiques sur MDN.</p>
+            <h6>
+                <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Temporal" target="_blank">
+                MDN : guide complet de l’API Temporal
+                </a>
+            </h6>
+            <p>
+                <strong>Contexte :</strong> L’API <code>Temporal</code> est la future norme pour gérer dates, heures et fuseaux dans JS, corrigeant les nombreuses lacunes de l’objet <code>Date</code> (mutabilité, incohérences de fuseau).
+            </p>
+            <p>
+                <strong>Fonctionnalités :</strong><br>
+                • <code>PlainDate</code>, <code>PlainTime</code>, <code>ZonedDateTime</code> pour manipuler finement les calendriers et fuseaux<br>
+                • Durées (<code>Duration</code>) et intervalles (<code>Temporal.Duration</code>, <code>Temporal.Interval</code>)<br>
+                • Support des calendriers non grégoriens, utile en contexte internationalisé.
+            </p>
+            <p>
+                Ce guide MDN fournit exemples de migration pas-à-pas, conseils pour la compatibilité (polyfill) et scénarios réels (planification d’événements, gestion de logs temps réel).
+            </p>
             </div>
+
+            <!-- Article 2 -->
             <div class="veille-article">
-              <h6><a href="https://www.lemondeinformatique.fr/actualites/lire-les-nouveautes-de-javascript-en-2024-92452.html" target="_blank">Nouveautés JavaScript 2024</a></h6>
-              <p>Un résumé des nouveautés majeures de JavaScript en 2024 : gestion des dates, records & tuples, sécurité et tendances du web moderne.</p>
+            <h6>
+                <a href="https://2ality.com/2024/02/pipeline-operator.html" target="_blank">
+                2ality : état des lieux du pipeline operator (|>)
+                </a>
+            </h6>
+            <p>
+                <strong>Contexte :</strong> Proposé pour ES2024, le pipeline operator (<code>|></code>) permet de chaîner des appels de fonction de façon plus lisible, à la manière de Unix pipes ou du langage F#.
+            </p>
+            <p>
+                <strong>Synthèse des syntaxes :</strong><br>
+                • <em>Minimal</em> (une seule position de pipe) : <code>value |> fn</code><br>
+                • <em>Smart</em> (placeholder <code>#</code>) : <code>value |> fn(#)</code><br>
+                • <em>F# style</em> (dernier argument) : <code>value |> fn</code> équivalent à <code>fn(value)</code>.
+            </p>
+            <p>
+                L’article détaille les avantages sur la lisibilité, comment configurer votre transpileur (Babel, TypeScript) et quelques pièges à éviter (parenthèses, chaînes imbriquées).
+            </p>
             </div>
+
+            <!-- Article 3 -->
             <div class="veille-article">
-              <h6><a href="https://www.zdnet.com/topic/security/" target="_blank">Actus cybersécurité web</a></h6>
-              <p>Retrouvez les dernières actualités sur la sécurité web, les failles XSS et les recommandations pour sécuriser vos applications JavaScript.</p>
+            <h6>
+                <a href="https://web.dev/es2024-features/" target="_blank">
+                web.dev : nouveautés ECMAScript 2024 en pratique
+                </a>
+            </h6>
+            <p>
+                <strong>Contexte :</strong> ES2024 apporte plusieurs ajouts mineurs mais utiles pour simplifier le code quotidien et améliorer la performance des scripts.
+            </p>
+            <p>
+                <strong>Fonctionnalités clés :</strong><br>
+                • <code>Array.groupBy</code> : regroupe les éléments d’un tableau selon une clé, remplaçant des boucles manuelles complexes<br>
+                • Modules JSON natifs (<code>import data from "./config.json"</code>) : plus besoin de fetcher ou parser manuellement<br>
+                • <em>Top-level await</em> généralisé : simplifie les modules asynchrones sans wrapper en IIFE.
+            </p>
+            <p>
+                L’article inclut des exemples concrets (regroupement de logs, chargement conditionnel de config), et des benchmarks montrant un léger gain de performance sur Chrome 114+ et Node 20+.
+            </p>
             </div>
-          </div>
+
         </div>
-      </div>
+        </div>
     </div>
+    </div>
+
     </main>
 
     <footer>
