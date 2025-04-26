@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -33,9 +33,12 @@
                         <span class="tag">Blade</span>
                         <span class="tag">PhpMyAdmin</span>
                         <span class="tag">SQL</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">MVC</span>
                     </div>
                     <p class="projet-description">
-                        Application web de réservation et commande de repas en ligne pour restaurants, pensée pour fluidifier l'expérience client et optimiser la gestion côté restaurateur.
+                    Plateforme web permettant aux clients de réserver une table, de commander des plats en ligne et de suivre leurs commandes en temps réel. Côté restaurateur, l’application offre une gestion intuitive des réservations, des commandes, des menus et des tables, le tout dans une interface moderne et responsive.
                     </p>
                     <div class="projet-links">
                         <a href="#projetModal1ClickAllEat" class="btn-details">Voir les détails</a>
@@ -52,7 +55,6 @@
                     <span class="close-modal">&times;</span>
                     <div class="projet-details">
                         <h2>1ClickAllEat</h2>
-                        <h2>1ClickAllEat</h2>
 
                         <section class="projet-context">
                             <h3>Contexte du Projet</h3>
@@ -64,23 +66,24 @@
                         <section class="projet-environment">
                             <h3>Environnement Technologique</h3>
                             <ul>
-                                <li>Front-end : Blade (Laravel), Bootstrap, responsive design</li>
-                                <li>Back-end : Laravel (PHP)</li>
-                                <li>Base de données : SQLite (local), PhpMyAdmin (VPS)</li>
-                                <li>Outils : Breeze, Faker pour les données de test, hébergement HTTPS</li>
+                                <li>Front-end : Blade (Laravel), Bootstrap 5, HTML5, CSS3, responsive design</li>
+                                <li>Back-end : Laravel 10 (PHP 8), architecture MVC</li>
+                                <li>Base de données :  SQLite (développement), MySQL/PhpMyAdmin (production)</li>
+                                <li>Outils : Breeze (authentification), Faker (données de test), GitHub (gestion de versions), VS Code, hébergement HTTPS</li>
                             </ul>
                         </section>
 
                         <section class="projet-tasks">
                             <h3>Tâches Réalisées</h3>
                             <ul>
-                                <li>Conception et développement complet de l’application (front-end et back-end)</li>
-                                <li>Création de l’architecture MVC sous Laravel</li>
-                                <li>Implémentation de la gestion des restaurants, menus, commandes, réservations</li>
-                                <li>Authentification multi-profils (clients, restaurateurs)</li>
-                                <li>Déploiement sur serveur, mise en place du HTTPS</li>
-                                <li>Utilisation de l’IA pour l’inspiration design et le débogage</li>
-                                <li>Tests unitaires et gestion des données de test avec Faker</li>
+                            <li>Analyse du besoin, rédaction du cahier des charges et du diagramme de Gantt</li>
+                        <li>Modélisation de la base de données et création des migrations Laravel</li>
+                                <li>Développement des fonctionnalités principales : réservation, commande, gestion des utilisateurs, gestion des restaurants/tables/menus</li>
+                                <li>Implémentation de l’authentification sécurisée multi-profils (clients, restaurateurs)</li>
+                                <li>Développement d’un tableau de bord pour restaurateur (statistiques, gestion des réservations et commandes)</li>
+                                <li>Tests unitaires, validation des formulaires et gestion des erreurs</li>
+                                <li>Déploiement sur serveur distant, configuration du HTTPS et optimisation de la sécurité</li>
+                                <li>Rédaction de la documentation utilisateur et technique</li>
                             </ul>
                         </section>
 
@@ -88,6 +91,13 @@
                             <h3>Planning du Projet</h3>
                             <div class="timeline">
                                 Projet mené de novembre 2024 à avril 2025, avec phases de conception, développement, tests, puis déploiement et amélioration continue. Travail réparti sur plusieurs semaines, avec une montée en compétences progressive sur Laravel.
+                                <ul>
+                        <li>Novembre 2024 : Analyse du besoin, rédaction du cahier des charges</li>
+                        <li>Décembre 2024 : Modélisation de la base, mise en place de l’architecture Laravel</li>
+                        <li>Janvier-Février 2025 : Développement des fonctionnalités principales</li>
+                        <li>Mars 2025 : Tests, corrections, ajout des fonctionnalités avancées</li>
+                        <li>Avril 2025 : Déploiement, rédaction de la documentation, soutenance</li>
+                    </ul>
                             </div>
                             <div style="margin-top:1rem;">
                                 <a href="../assets/picture/Gantt_1ClickAllEat.pdf" class="btn-pdf" target="_blank">Télécharger le Gantt (PDF)</a>
@@ -106,16 +116,23 @@
                                 <p>Pas de maquette initiale : j’ai adapté des templates Bootstrap pour obtenir un rendu professionnel et responsive, en prévoyant la possibilité de personnaliser le style pour chaque restaurant à l’avenir.</p>
                                 <p><strong>Solution :</strong> Recherche d’exemples, adaptation de templates, tests sur différents supports.</p>
                             </div>
+                            <div class="challenge">
+                    <h4>Déploiement et configuration serveur</h4>
+                    <p>Mise en place d’un hébergement sécurisé (HTTPS), configuration de la base de données distante, gestion des variables d’environnement.</p>
+                    <p><strong>Solution :</strong> Documentation OVH, Let’s Encrypt, adaptation de la configuration Laravel .env.</p>
+                </div>
                         </section>
 
                         <section class="projet-competences">
                             <h3>Compétences Mobilisées</h3>
                             <ul>
-                                <li>Développement web fullstack (Laravel, PHP, Blade, Bootstrap)</li>
-                                <li>Gestion de projet en autonomie</li>
-                                <li>Implémentation de l’authentification et de la sécurité</li>
-                                <li>Déploiement d’application web et gestion de base de données</li>
-                                <li>Utilisation d’outils de tests et d’automatisation</li>
+                            <li>Développement web fullstack (Laravel, PHP, Blade, Bootstrap, SQL)</li>
+                    <li>Gestion de projet (planification, documentation, autonomie)</li>
+                    <li>Modélisation de base de données relationnelle</li>
+                    <li>Gestion de la sécurité et des droits utilisateurs</li>
+                    <li>Déploiement d’application web sur serveur distant</li>
+                    <li>Utilisation de Git et GitHub pour le versionning</li>
+                    <li>Rédaction de documentation technique et utilisateur</li>
                             </ul>
                         </section>
 
