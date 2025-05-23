@@ -22,7 +22,7 @@
             <!-- Formulaire de contact -->
             <section class="contact-form">
                 <h2>Envoyez-moi un message</h2>
-                <form id="messageForm">
+                <form id="contactForm" action="contact_form_handler.php" method="POST">
                     <div class="form-group">
                         <label for="name">Nom complet</label>
                         <input type="text" id="name" name="name" required>
@@ -55,8 +55,31 @@
             <?php include("../include/footer/footer.php"); ?>
         </footer>
 
-        <!-- <script src="../js/main.js"></script> -->
-        <!-- <script src="../js/contact.js"></script> -->
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const formData = new FormData(form);
+                fetch('contact_form_handler.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert(data.message);
+                        form.reset();
+                    } else {
+                        alert('Erreur : ' + data.message);
+                    }
+                })
+                .catch(() => {
+                    alert("Erreur lors de l'envoi du message. Veuillez réessayer plus tard.");
+                });
+            });
+        });
+        </script>
 </body>
 
 </html>

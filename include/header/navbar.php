@@ -26,7 +26,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="../index.php">Marc-Antoine Marie</a>
+            <a href="index.php">Marc-Antoine Marie</a>
         </div>
         <ul class="nav-links">
             <li><a href="index.php">Accueil</a></li>

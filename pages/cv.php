@@ -12,18 +12,18 @@
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
 </head>
 
+<header>
+    <?php include("../include/header/navbar.php"); ?>
+</header>
+
 <body>
-    <header>
-        <?php include("../include/header/navbar.php"); ?>
-    </header>
 
     <main class="home-container">
         <div id="vanta-bg"></div>
 
         <div class="cv-container">
             <section class="profile-section">
-                <img src="../assets/picture/Picture_MARIE_Marc-Antoine.jpg" alt="Photo de Marc-Antoine MARIE"
-                    class="profile-picture">
+                <img src="../assets/picture/profile-pic.png" alt="Photo de Marc-Antoine MARIE" class="profile-picture">
                 <h1 class="profile-name">Marc-Antoine MARIE</h1>
                 <h2 class="profile-title">Développeur Web Full Stack</h2>
                 <p class="profile-description">
@@ -50,7 +50,7 @@
                         <span>Permis B</span>
                     </div>
                 </div>
-                <div class="social-links">
+                <div class="social-logos">
                     <a href="https://www.linkedin.com/in/marc-antoine-marie-6a132820a" target="_blank"><i
                             class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/Marc-AntoineMarie" target="_blank"><i class="fab fa-github"></i></a>
@@ -219,7 +219,7 @@
                     </section>
                 </div>
             </div>
-            <a href="../assets/cv_Marie_Marc-Antoine_Bachelor_dev.pdf" class="download-cv">
+            <a href="../assets/cv_Marie_Marc-Antoine_Bachelor_dev.pdf" class="download-cv" target="_blank">
                 <i class="fas fa-download"></i> Télécharger mon CV
             </a>
         </div>

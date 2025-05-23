@@ -24,7 +24,7 @@
                 <h1>Bienvenue sur mon Portfolio</h1>
                 <h2>Étudiant en BTS SIO SLAM</h2>
                 <p>Découvrez mes projets et compétences en développement informatique</p>
-                <a href="pages/projets.html" class="cta-button">Voir mes projets</a>
+                <a href="projets.php" class="cta-button">Voir mes projets</a>
             </div>
         </section>
 

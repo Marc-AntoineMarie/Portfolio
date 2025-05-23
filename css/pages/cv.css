@@ -85,19 +85,19 @@ footer {
     margin-bottom: 1.5rem;
 }
 
-.social-links {
+.social-logos {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
-.social-links a {
+.social-logos a {
     color: var(--text-color);
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
-.social-links a:hover {
+.social-logos a:hover {
     color: var(--secondary-color);
 }
 
