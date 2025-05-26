@@ -1,31 +1,68 @@
 <?php
-// contact_form_handler.php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Sécurisation des entrées
-    $name = htmlspecialchars(trim($_POST['name'] ?? ''));
-    $email = htmlspecialchars(trim($_POST['email'] ?? ''));
-    $subject = htmlspecialchars(trim($_POST['subject'] ?? ''));
-    $message = htmlspecialchars(trim($_POST['message'] ?? ''));
+require_once __DIR__ . '/../lib/PHPMailer/PHPMailer.php';
+require_once __DIR__ . '/../lib/PHPMailer/SMTP.php';
+require_once __DIR__ . '/../lib/PHPMailer/Exception.php';
 
-    // Adresse email de destination (boîte pro)
-    $to = 'mmarie.galaxie@gmail.com'; // Remplace par ton adresse pro si besoin
-    $headers = "From: Portfolio <no-reply@portfolio.local>\r\n";
-    $headers .= "Reply-To: $email\r\n";
-    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-    $mail_subject = "[Portfolio] Nouveau message : $subject";
-    $mail_body = "Nom: $name\nEmail: $email\nSujet: $subject\n\nMessage:\n$message";
+header('Content-Type: application/json');
 
-    $success = mail($to, $mail_subject, $mail_body, $headers);
+$name = htmlspecialchars(trim($_POST['name'] ?? ''));
+$email = htmlspecialchars(trim($_POST['email'] ?? ''));
+$subject = htmlspecialchars(trim($_POST['subject'] ?? ''));
+$message = htmlspecialchars(trim($_POST['message'] ?? ''));
 
-    if ($success) {
-        http_response_code(200);
-        echo json_encode(["success" => true, "message" => "Votre message a bien été envoyé !"]);
-    } else {
-        http_response_code(500);
-        echo json_encode(["success" => false, "message" => "Erreur lors de l'envoi du message. Veuillez réessayer plus tard."]);
-    }
-    exit;
+$mail = new PHPMailer(true);
+try {
+    // $mail->SMTPDebug = 0; // Mets à 0 pour éviter les logs SMTP dans la réponse
+    $mail->isSMTP();
+    $mail->Host = 'smtp.gmail.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'mmarie.galaxie@gmail.com';
+    $mail->Password = 'fgow gpor tcjn ujto';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->SMTPDebug = 0;
+    $mail->Port = 587;
+
+    $mail->setFrom('mmarie.galaxie@gmail.com', 'Portfolio');
+    $mail->addAddress('mmarie.galaxie@gmail.com');
+    $mail->addReplyTo($email, $name);
+
+    $mail->Subject = "[Portfolio] Nouveau message : $subject";
+    $mail->isHTML(true); // Active le mode HTML
+
+    $mail->Body = '
+    <div style="font-family: Arial, sans-serif; color: #222; background: #f6f6f6; padding: 20px;">
+        <div style="max-width: 600px; margin: auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); padding: 24px;">
+            <h2 style="color: #3d6cb9; border-bottom: 1px solid #eee; padding-bottom: 8px;">📬 Nouveau message reçu depuis le Portfolio</h2>
+            <table style="width: 100%; margin: 20px 0;">
+                <tr>
+                    <td style="font-weight: bold; width: 120px;">Nom :</td>
+                    <td>' . htmlspecialchars($name) . '</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">Email :</td>
+                    <td>' . htmlspecialchars($email) . '</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">Sujet :</td>
+                    <td>' . htmlspecialchars($subject) . '</td>
+                </tr>
+            </table>
+            <div style="margin-top: 24px;">
+                <p style="font-weight: bold; margin-bottom: 8px;">Message :</p>
+                <div style="background: #f0f4fa; border-radius: 6px; padding: 16px; color: #333; font-size: 1.1em;">
+                    ' . nl2br(htmlspecialchars($message)) . '
+                </div>
+            </div>
+            <p style="margin-top: 32px; font-size: 0.9em; color: #888;">Ce message a été envoyé automatiquement depuis le formulaire de contact du portfolio.</p>
+        </div>
+    </div>
+';
+
+    $mail->send();
+    echo json_encode(['success' => true, 'message' => 'Votre message a bien été envoyé !']);
+} catch (Exception $e) {
+    echo json_encode(['success' => false, 'message' => "Erreur lors de l'envoi du message : {$mail->ErrorInfo} / {$e->getMessage()}"]);
 }
-http_response_code(405);
-echo json_encode(["success" => false, "message" => "Méthode non autorisée."]);

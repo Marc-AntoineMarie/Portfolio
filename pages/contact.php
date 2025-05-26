@@ -56,29 +56,34 @@
         </footer>
 
         <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const form = document.getElementById('contactForm');
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-                const formData = new FormData(form);
-                fetch('contact_form_handler.php', {
-                    method: 'POST',
-                    body: formData
-                })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.success) {
-                        alert(data.message);
-                        form.reset();
-                    } else {
-                        alert('Erreur : ' + data.message);
-                    }
-                })
-                .catch(() => {
-                    alert("Erreur lors de l'envoi du message. Veuillez réessayer plus tard.");
+            document.addEventListener('DOMContentLoaded', function () {
+                const form = document.getElementById('contactForm');
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    const formData = new FormData(form);
+                    fetch('contact_form_handler.php', {
+                        method: 'POST',
+                        body: formData
+                    })
+                        .then(response => {
+                            console.log(response); // Ajoute ceci
+                            return response.json();
+                        })
+                        .then(data => {
+                            console.log(data); // Ajoute ceci
+                            if (data.success) {
+                                alert(data.message);
+                                form.reset();
+                            } else {
+                                alert('Erreur : ' + data.message);
+                            }
+                        })
+                        .catch((err) => {
+                            alert("Erreur lors de l'envoi du message. Veuillez réessayer plus tard.");
+                            console.error(err); // Ajoute ceci
+                        });
                 });
             });
-        });
         </script>
 </body>
 
