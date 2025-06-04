@@ -1,0 +1,9 @@
+# Fichiers sensibles et dépendances à ignorer
+.env
+.env.*
+vendor/
+lib/PHPMailer/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

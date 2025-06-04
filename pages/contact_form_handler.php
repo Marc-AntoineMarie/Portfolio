@@ -6,6 +6,10 @@ require_once __DIR__ . '/../lib/PHPMailer/Exception.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+require_once __DIR__ . '/../vendor/autoload.php'; // Charge Composer (dotenv et PHPMailer)
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+$dotenv->load();
+
 header('Content-Type: application/json');
 
 $name = htmlspecialchars(trim($_POST['name'] ?? ''));
@@ -19,8 +23,8 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'mmarie.galaxie@gmail.com';
-    $mail->Password = 'fgow gpor tcjn ujto';
+    $mail->Username = $_ENV['MAIL_USERNAME'];
+    $mail->Password = $_ENV['MAIL_PASSWORD'];
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->SMTPDebug = 0;
     $mail->Port = 587;
