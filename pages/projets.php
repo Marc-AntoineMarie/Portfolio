@@ -90,7 +90,7 @@
             <!-- Projet réel : 1ClickAllEat -->
             <article class="projet-card" data-category="web">
                 <div class="projet-image">
-                    <img src="../assets/picture/portfolio.png" alt="1ClickAllEat"
+                    <img src="../assets/picture/portfolio.png" alt="Portfolio"
                         style="object-fit:cover;width:100%;height:100%;">
                 </div>
                 <div class="projet-content">
