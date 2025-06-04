@@ -252,7 +252,15 @@
                         <!-- Article 3 -->
                         <div class="veille-article">
                             <h6>
-                                <a href="https://blog.jetbrains.com/phpstorm/2024/03/phpstorm-2024-1-eap-new-features/"
+                                <a href="https://youtrack.jetbrains.com/articles/WI-A-231736111/PhpStorm-2024.1-241.14494.237-build-Release-Notes"
+                                    target="_blank">
+                                    JetBrains PhpStorm 2024.1 EAP : focus sur la qualité de code
+                                </a>
+                                <a href="https://www.jetbrains.com/help/phpstorm/using-psalm.html"
+                                    target="_blank">
+                                    JetBrains PhpStorm 2024.1 EAP : focus sur la qualité de code
+                                </a>
+                                <a href="https://www.jetbrains.com/help/phpstorm/using-psalm.html"
                                     target="_blank">
                                     JetBrains PhpStorm 2024.1 EAP : focus sur la qualité de code
                                 </a>
@@ -299,7 +307,7 @@
                         <!-- Article 1 -->
                         <div class="veille-article">
                             <h6>
-                                <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Temporal"
+                                <a href="https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/?utm_source=chatgpt.com"
                                     target="_blank">
                                     MDN : guide complet de l’API Temporal
                                 </a>
