@@ -80,7 +80,7 @@
                         <a href="#projetModalTelora" class="btn-details">Voir les détails</a>
                         <a href="https://github.com/Marc-AntoineMarie/telora" class="btn-github" target="_blank"><i
                                 class="fab fa-github"></i></a>
-                        <a href="https://1clickalleat-demo.com" class="btn-demo" target="_blank">Démo</a>
+                        <a href="https://telora.marc-antoinemarie.com/login/login.php" class="btn-demo" target="_blank">Démo</a>
                         <a href="../assets/picture/cahier_des_charges_telora.pdf" class="btn-pdf" target="_blank">Cahier
                             des charges</a>
                     </div>
