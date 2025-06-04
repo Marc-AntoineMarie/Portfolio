@@ -111,7 +111,6 @@
                         <a href="#projetModalportfolio" class="btn-details">Voir les détails</a>
                         <a href="https://github.com/Marc-AntoineMarie/Portfolio" class="btn-github"
                             target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://1clickalleat-demo.com" class="btn-demo" target="_blank">Démo</a>
                         <a href="../assets/picture/cahier_des_charges_portfolio.pdf" class="btn-pdf"
                             target="_blank">Cahier des charges</a>
                     </div>
@@ -298,7 +297,6 @@
                 </div>
             </div>
 
-
             <!-- Modal détaillée pour Telora -->
             <div class="projet-details-modal" id="projetModalTelora">
                 <div class="modal-content">
@@ -382,35 +380,31 @@
                     </div>
                     </section>
 
-                    <section class="projet-competences">
-                        <h3>Compétences Mobilisées</h3>
-                        <ul>
-                            <li>Développement web fullstack (PHP, Bootstrap, SQL)</li>
-                            <li>Gestion de projet (planification, documentation, autonomie)</li>
-                            <li>Modélisation de base de données relationnelle</li>
-                            <li>Gestion de la sécurité et des droits utilisateurs</li>
-                            <li>Déploiement d’application web sur serveur distant</li>
-                            <li>Utilisation de Git et GitHub pour le versionning</li>
-                            <li>Rédaction de documentation technique et utilisateur</li>
-                        </ul>
-                    </section>
+                        <section class="projet-competences">
+                            <h3>Compétences Mobilisées</h3>
+                            <ul>
+                                <li>Développement web fullstack (PHP, Bootstrap, SQL)</li>
+                                <li>Gestion de projet (planification, documentation, autonomie)</li>
+                                <li>Modélisation de base de données relationnelle</li>
+                                <li>Gestion de la sécurité et des droits utilisateurs</li>
+                                <li>Déploiement d’application web sur serveur distant</li>
+                                    <li>Utilisation de Git et GitHub pour le versionning</li>
+                            <li>Rédaction de documentation technique et utilisateur</li>                        
+                            </ul>
+                        </section>
 
-                    <section class="projet-bilan">
-                        <h3>Bilan Personnel</h3>
-                        <p>
+                        <section class="projet-bilan">
+                            <h3>Bilan Personnel</h3>
+                            <p>
                             Ce projet m’a permis de structurer ma démarche de gestion de projet sur le long terme,
                             d’utiliser des outils de planification (diagramme de Gantt) et de renforcer mes compétences
                             en organisation,
                             documentation et suivi de projet.
-                        </p>
-                    </section>
+                            </p>
+                        </section>
+                    </div>
                 </div>
             </div>
-
-            
-
-
-
         </div>
         
     </main>
