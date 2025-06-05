@@ -61,8 +61,8 @@
                                 <br>
                                 <a href="#" target="_blank">Portfolio</a>
                                 <span> / </span> 
-                                <a href="#" target="_blank" target="_blank"> Welcome Training </a>
-                                <span> / </span> 
+                                <!-- <a href="#" target="_blank" target="_blank"> Welcome Training </a> -->
+                                <!-- <span> / </span>  -->
                                 <a href="#" target="_blank" target="_blank"> 1ClickAllEat </a>
                             </div>
                         </div>
@@ -98,8 +98,8 @@
                                 <br>
                                 <a href="#" target="_blank">Portfolio</a>
                                 <span> / </span> 
-                                <a href="#" target="_blank" target="_blank"> Welcome Training </a>
-                                <span> / </span> 
+                                <!-- <a href="#" target="_blank" target="_blank"> Welcome Training </a> -->
+                                <!-- <span> / </span>  -->
                                 <a href="#" target="_blank" target="_blank"> 1ClickAllEat </a>
                             </div>
                         </div>
@@ -134,8 +134,8 @@
                                 <br> <br> 
                                 <span> – Réalisations d'école </span>
                                 <br>
-                                <a href="#" target="_blank" target="_blank"> Welcome Training </a>
-                                <span> / </span> 
+                                <!-- <a href="#" target="_blank" target="_blank"> Welcome Training </a> -->
+                                <!-- <span> / </span>  -->
                                 <a href="#" target="_blank" target="_blank"> 1ClickAllEat </a>
                             </div>
                         </div>
@@ -232,8 +232,8 @@
                                 <br> <br> 
                                 <span> – Réalisations d'école </span>
                                 <br>
-                                <a href="#" target="_blank" target="_blank"> Welcome Training </a>
-                                <span> / </span> 
+                                <!-- <a href="#" target="_blank" target="_blank"> Welcome Training </a> -->
+                                <!-- <span> / </span>  -->
                                 <a href="#" target="_blank" target="_blank"> 1ClickAllEat </a>
                             </div>
                         </div>
