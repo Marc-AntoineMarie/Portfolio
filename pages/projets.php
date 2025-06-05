@@ -57,7 +57,7 @@
             <!-- Projet réel : Telora -->
             <article class="projet-card" data-category="web">
                 <div class="projet-image">
-                    <img src="../assets/picture/telora_.png" alt="Telora"
+                    <img src="../assets/picture/telora.png" alt="Telora"
                         style="object-fit:cover;width:100%;height:100%;">
                 </div>
                 <div class="projet-content">
@@ -80,7 +80,7 @@
                         <a href="#projetModalTelora" class="btn-details">Voir les détails</a>
                         <a href="https://github.com/Marc-AntoineMarie/telora" class="btn-github" target="_blank"><i
                                 class="fab fa-github"></i></a>
-                        <a href="https://telora.marc-antoinemarie.com/login/login.php" class="btn-demo" target="_blank">Démo</a>
+                        <a href="https://1clickalleat-demo.com" class="btn-demo" target="_blank">Démo</a>
                         <a href="../assets/picture/cahier_des_charges_telora.pdf" class="btn-pdf" target="_blank">Cahier
                             des charges</a>
                     </div>
@@ -90,7 +90,7 @@
             <!-- Projet réel : 1ClickAllEat -->
             <article class="projet-card" data-category="web">
                 <div class="projet-image">
-                    <img src="../assets/picture/portfolio_.png" alt="Portfolio"
+                    <img src="../assets/picture/portfolio.png" alt="1ClickAllEat"
                         style="object-fit:cover;width:100%;height:100%;">
                 </div>
                 <div class="projet-content">
@@ -238,6 +238,113 @@
                 </div>
             </div>
 
+            <!-- Modal détaillée pour Telora -->
+            <div class="projet-details-modal" id="projetModalTelora">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="projet-details">
+                        <h2>Telora</h2>
+
+                        <section class="projet-context">
+                            <h3>Contexte du Projet</h3>
+                            <p>
+                                Application développée entre avril 2024 et juin 2025 dans le cadre d’un projet de
+                                gestion de contacts.
+                                L’objectif est de concevoir une plateforme facilitant la gestion,
+                                le suivi et la planification des contacts professionnels ou clients.
+                                Le projet a suivi une démarche structurée, de l’analyse à la présentation finale.
+                            </p>
+                        </section>
+
+                        <section class="projet-environment">
+                            <h3>Environnement Technologique</h3>
+                            <ul>
+                                <li>Front-end : Bootstrap 5, HTML5, CSS3, SCSS, responsive design</li>
+                                <li>Back-end : PHP 8, architecture MVC</li>
+                                <li>Base de données : MySQL/PhpMyAdmin </li>
+                                <li>Outils : PHPMailer </li>
+                            </ul>
+                        </section>
+
+                        <section class="projet-tasks">
+                            <h3>Tâches Réalisées</h3>
+                            <ul>
+                                <li>Analyse du besoin, rédaction du cahier des charges et du diagramme de Gantt</li>
+                                <li>Modélisation de la base de données et création des migrations Laravel</li>
+                                <li>Développement des fonctionnalités principales : navigation, gestion client, gestion
+                                    des
+                                    utilisateurs, gestion des contacts/BLF/provisionning</li>
+                                <li>Implémentation de l’authentification sécurisée multi-profils (clients,
+                                    Partenaire)</li>
+                                <li>Tests unitaires, validation des formulaires et gestion des erreurs</li>
+                                <li>Déploiement sur serveur distant, configuration du HTTPS et optimisation de la
+                                    sécurité</li>
+                                <li>Rédaction de la documentation utilisateur et technique</li>
+                            </ul>
+                        </section>
+
+                        <section class="projet-timeline">
+                            <h3>Planning du Projet</h3>
+                            <div class="timeline">
+                                 Projet mené d’avril 2024 à juin 2025, structuré en :
+                                <ul>
+                                    <li>Avril 2024 : Analyse & conception</li>
+                                    <li>Décembre 2024 : Modélisation de la base, mise en place de l’architecture Laravel
+                                    </li>
+                                    <li>Fin avril 2024 : Mise en place technique</li>
+                                    <li>Mai 2024 à mars 2025 : Développement principal</li>
+                                    <li>Avril 2025 : Tests et validation</li>
+                                    <li>Mai 2025 : Documentation & livrables</li>
+                                    <li>Juin 2025 : Présentation & recette</li>
+                                </ul>
+                            </div>
+                            <div style="margin-top:1rem;">
+                                <a href="../assets/picture/gantt_telora.png" class="btn-pdf" target="_blank">Télécharger le
+                                    Gantt (PDF)</a>
+                            </div>
+                        </section>
+
+                        <section class="projet-challenges">
+                            <h3>Difficultés et Solutions</h3>
+                            <div class="challenge">
+                                <h4>Gestion du planning long terme : </h4>
+                                <p>Nécessité de découper le projet en phases avec des jalons clairs.</p>
+                                <p><strong>Solution :</strong> Vérification réguliere de l'avancer avec l'équipe</p>
+                            </div>
+                            <div class="challenge">
+                                <h4>Tests et validation progressive</h4>
+                                <p>Mise en place de test unitaire par fonctionnalité.</p>
+                                <p><strong>Solution :</strong> Reunion fréquente avec l'équipe pour valider les fonctionnalités
+                                </p>
+                            </div>
+                        </section>
+
+                        <section class="projet-competences">
+                            <h3>Compétences Mobilisées</h3>
+                            <ul>
+                                <li>Développement web fullstack (PHP, Bootstrap, SQL)</li>
+                                <li>Gestion de projet (planification, documentation, autonomie)</li>
+                                <li>Modélisation de base de données relationnelle</li>
+                                <li>Gestion de la sécurité et des droits utilisateurs</li>
+                                <li>Déploiement d’application web sur serveur distant</li>
+                                    <li>Utilisation de Git et GitHub pour le versionning</li>
+                            <li>Rédaction de documentation technique et utilisateur</li>                        
+                            </ul>
+                        </section>
+
+                        <section class="projet-bilan">
+                            <h3>Bilan Personnel</h3>
+                            <p>
+                            Ce projet m’a permis de structurer ma démarche de gestion de projet sur le long terme,
+                            d’utiliser des outils de planification (diagramme de Gantt) et de renforcer mes compétences
+                            en organisation,
+                            documentation et suivi de projet.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
             <!-- Modal détaillée pour Portfolio -->
             <div class="projet-details-modal" id="projetModalportfolio">
                 <div class="modal-content">
@@ -291,115 +398,6 @@
                                 Je suis fier d’avoir mené ce projet à bien, seul, en développant un site à la fois esthétique, professionnel et épuré.
                                 J’espère qu’il reflète fidèlement mes compétences et qu’il me sera utile, 
                                 après le BTS et dans la poursuite de mes études, pour m’insérer sur le marché du travail.
-                            </p>
-                        </section>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal détaillée pour Telora -->
-            <div class="projet-details-modal" id="projetModalTelora">
-                <div class="modal-content">
-                    <span class="close-modal">&times;</span>
-                    <div class="projet-details">
-                        <h2>Telora</h2>
-
-                        <section class="projet-context">
-                            <h3>Contexte du Projet</h3>
-                            <p>
-                                Application développée entre avril 2024 et juin 2025 dans le cadre d’un projet de
-                                gestion de contacts.
-                                L’objectif est de concevoir une plateforme facilitant la gestion,
-                                le suivi et la planification des contacts professionnels ou clients.
-                                Le projet a suivi une démarche structurée, de l’analyse à la présentation finale.
-                            </p>
-                        </section>
-
-                        <section class="projet-environment">
-                            <h3>Environnement Technologique</h3>
-                            <ul>
-                                <li>Front-end : Bootstrap 5, HTML5, CSS3, SCSS, responsive design</li>
-                                <li>Back-end : PHP 8, architecture MVC</li>
-                                <li>Base de données : MySQL/PhpMyAdmin </li>
-                                <li>Outils : PHPMailer </li>
-                            </ul>
-                        </section>
-
-                        <section class="projet-tasks">
-                            <h3>Tâches Réalisées</h3>
-                            <ul>
-                                <li>Analyse du besoin, rédaction du cahier des charges et du diagramme de Gantt</li>
-                                <li>Modélisation de la base de données et création des migrations Laravel</li>
-                                <li>Développement des fonctionnalités principales : navigation, gestion client, gestion
-                                    des
-                                    utilisateurs, gestion des contacts/BLF/provisionning</li>
-                                <li>Implémentation de l’authentification sécurisée multi-profils (clients,
-                                    Partenaire)</li>
-                                <li>Tests unitaires, validation des formulaires et gestion des erreurs</li>
-                                <li>Déploiement sur serveur distant, configuration du HTTPS et optimisation de la
-                                    sécurité</li>
-                                <li>Rédaction de la documentation utilisateur et technique</li>
-                            </ul>
-                        </section>
-
-                        <section class="projet-timeline">
-                            <h3>Planning du Projet</h3>
-                            <div class="timeline">
-                                Projet mené d’avril 2024 à juin 2025, structuré en :
-                                <ul>
-                                    <li>Avril 2024 : Analyse & conception</li>
-                                    <li>Décembre 2024 : Modélisation de la base, mise en place de l’architecture Laravel
-                                    </li>
-                                    <li>Fin avril 2024 : Mise en place technique</li>
-                                    <li>Mai 2024 à mars 2025 : Développement principal</li>
-                                    <li>Avril 2025 : Tests et validation</li>
-                                    <li>Mai 2025 : Documentation & livrables</li>
-                                    <li>Juin 2025 : Présentation & recette</li>
-                                </ul>
-                            </div>
-                            <div style="margin-top:1rem;">
-                                <a href="../assets/picture/gantt_telora.png" class="btn-pdf" target="_blank">Télécharger
-                                    le
-                                    Gantt (PDF)</a>
-                            </div>
-                        </section>
-
-                        <section class="projet-challenges">
-                            <h3>Difficultés et Solutions</h3>
-                            <div class="challenge">
-                                <h4>Gestion du planning long terme : </h4>
-                                <p>Nécessité de découper le projet en phases avec des jalons clairs.</p>
-                                <p><strong>Solution :</strong> Vérification réguliere de l'avancer avec l'équipe</p>
-                            </div>
-                    </div>
-                    <div class="challenge">
-                        <h4>Tests et validation progressive</h4>
-                        <p>Mise en place de test unitaire par fonctionnalité.</p>
-                        <p><strong>Solution :</strong> Reunion fréquente avec l'équipe pour valider les fonctionnalités
-                        </p>
-                    </div>
-                    </section>
-
-                        <section class="projet-competences">
-                            <h3>Compétences Mobilisées</h3>
-                            <ul>
-                                <li>Développement web fullstack (PHP, Bootstrap, SQL)</li>
-                                <li>Gestion de projet (planification, documentation, autonomie)</li>
-                                <li>Modélisation de base de données relationnelle</li>
-                                <li>Gestion de la sécurité et des droits utilisateurs</li>
-                                <li>Déploiement d’application web sur serveur distant</li>
-                                    <li>Utilisation de Git et GitHub pour le versionning</li>
-                            <li>Rédaction de documentation technique et utilisateur</li>                        
-                            </ul>
-                        </section>
-
-                        <section class="projet-bilan">
-                            <h3>Bilan Personnel</h3>
-                            <p>
-                            Ce projet m’a permis de structurer ma démarche de gestion de projet sur le long terme,
-                            d’utiliser des outils de planification (diagramme de Gantt) et de renforcer mes compétences
-                            en organisation,
-                            documentation et suivi de projet.
                             </p>
                         </section>
                     </div>
